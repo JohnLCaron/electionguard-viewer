@@ -5,7 +5,7 @@
 plugins {
     base
     java
-    kotlin("jvm") version "1.6.20"
+    kotlin("jvm") version "1.6.21"
 }
 
 group = "electionguard.viewer"
@@ -27,17 +27,22 @@ dependencies {
 dependencies {
 
     implementation(libs.bytesLib)
+    implementation(platform(libs.grpcBom))
+    implementation(libs.grpcProtobuf)
+    implementation(libs.grpcStub)
     implementation(libs.guava)
+    implementation(libs.gson)
     implementation(libs.jcommander)
     implementation(libs.jsr305)
+    implementation(libs.flogger)
 
     implementation(files("libs/uibase.jar"))
     implementation(files("libs/electionguard-kotlin-multiplatform-jvm-1.0-SNAPSHOT.jar"))
 
     implementation(libs.jdom2)
     implementation(libs.slf4j)
-    runtimeOnly(libs.slf4jJdk14)
 
+    runtimeOnly(libs.slf4jJdk14)
     runtimeOnly(libs.floggerBackend)
 
     implementation(kotlin("stdlib-common", "1.6.20"))
@@ -65,6 +70,9 @@ dependencies {
 
     // A multiplatform Kotlin library for Result monads
     implementation("com.michael-bull.kotlin-result:kotlin-result:1.1.15")
+
+    testImplementation(libs.truth)
+    testImplementation(libs.truthJava8Extension)
 }
 
 tasks.getByName<Test>("test") {

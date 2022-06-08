@@ -1,0 +1,2833 @@
+{
+  "election_scope_id": "66aee299-98a9-49e6-84a6-f29b127577ca",
+  "spec_version": "1.0",
+  "type": "general",
+  "start_date": "2018-11-29T06:00:00+00:00",
+  "end_date": "2018-11-30T06:00:00+00:00",
+  "geopolitical_units": [
+    {
+      "object_id": "3eb4e745-7d80-4c2c-8306-003cfe530e14",
+      "name": "Dana Point",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "3406933b-7a58-49fe-901d-0061db02f821",
+      "name": "Fountain Valley",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "56273f22-64b0-4e72-bc85-02a51b07ec96",
+      "name": "Mesa Water District Division 2",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "cfea8b93-f006-4659-a969-03a9990066ee",
+      "name": "North Orange County Community College District Trustee Area 4",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "1a9e9738-d99d-4782-90dc-0606603c00ae",
+      "name": "Capistrano Unified School District Trustee Area 2",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "ebb24e62-3641-4a36-b885-074b5d1333f1",
+      "name": "Midway City Sanitary District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "c40d5ba0-3c65-4ad6-a6db-07d7380f8d61",
+      "name": "Anaheim Ward Division 1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "422b9004-0d5e-4708-85f7-087e060016d3",
+      "name": "69th Assembly District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "a042ee9c-4246-47d8-9973-08bea9446b4b",
+      "name": "Newport Beach Ward Division 3",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "3771877e-9c61-4845-a73a-0a79004e73d7",
+      "name": "East Orange County Water District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "08c50cf3-5c10-43d8-8261-0b6b234da82e",
+      "name": "Municipal Water District of Orange County Div 7",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "ea569ca5-0c6f-42e3-af9e-0b92501b8a9e",
+      "name": "Orange Unified School District Trustee Area 5",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "9679e66f-6a4f-4336-b890-0bd168b97555",
+      "name": "Orange County Water District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "d7fb2d92-dac3-47e2-a097-0c8b99235adc",
+      "name": "Lake Forest",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "495268bb-8c2c-49fb-bf39-0cb0e2904176",
+      "name": "Westminster",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "4a749814-e26c-4b49-8931-0cfe4eef5cb9",
+      "name": "46th Congressional District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "5a129a81-3c1f-4ba1-9973-0db82715af4f",
+      "name": "Santa Ana Ward Division 3",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "a627621c-74e6-4dbf-af1c-0e9483bbc315",
+      "name": "Fullerton School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "1fcc4633-dece-49cf-b25f-0ec94a03da0d",
+      "name": "Mesa Water District Division 1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "8bd180e4-1037-4f11-8aa6-0ff40d0aed79",
+      "name": "Centralia School District Trustee Area 5",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "077293d2-56c7-4db1-94db-0ffd83569a1e",
+      "name": "Rancho Santa Margarita",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "4c54f3e1-e387-4af5-bd18-10a09c0cd3ad",
+      "name": "Orange Unified School District Trustee Area 4",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "35bbc2ec-ee6b-4d72-9f36-121084260fed",
+      "name": "72nd Assembly District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "f297ebcd-9698-43d2-a10e-1211d75df864",
+      "name": "Savanna School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "fde4a665-136c-4de0-828a-18ce3c80900a",
+      "name": "Buena Park School District Trustee Area 3",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "6ddb93f8-2fe7-4667-b6de-18f3bb36e9f9",
+      "name": "Santa Ana Ward Division 2",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "4609d0b9-e32c-4814-98b3-19eda3e8cdbe",
+      "name": "Mission Viejo",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "f6b543bb-5600-4e21-ac30-1b74a2f37246",
+      "name": "4th Supervisorial District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "1f97456e-ece2-44e1-bb50-1bd3235999c6",
+      "name": "Mesa Water District Division 3",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "64ca287c-8b48-4c2c-8377-1dfa24c7e055",
+      "name": "Buena Park School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "1faf10e2-6484-482e-9132-1e9d12f9be5d",
+      "name": "Sunset Beach",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "e4646891-fdc8-4936-babe-1eb5fc823130",
+      "name": "Orange County Water District Division 7",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "c52b1c4d-46e1-4b2e-b7f3-1efb1e307b9a",
+      "name": "Silverado",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "e44bef52-d22b-4168-9bfb-2053ab452643",
+      "name": "Newport-Mesa Unified School District Trustee Area 3",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "cefe32b6-3e5a-4e0b-89dc-20b9bed37f01",
+      "name": "Orange Unified School District Trustee Area 1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "ad17f63d-5075-4c7b-a1d4-21062a569047",
+      "name": "Ladera Ranch",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "0e4bc374-51f2-4326-9751-21abacb3345c",
+      "name": "37th Senate District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "c062cba2-6319-4b1c-b0d0-21ac9610a048",
+      "name": "Buena Park Ward Division 4",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "f76ebbf1-c61b-46f5-b243-22dbf8dc532f",
+      "name": "County Board of Education Trustee Area 3",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "7788dcaf-abe8-4cb2-8cf4-2399b0d385e1",
+      "name": "Moulton-Niguel Water District Division 6",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "da4bad23-081d-4fb8-bdee-2450a270db1a",
+      "name": "Anaheim Ward Division 4",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "d38f4ce6-982d-4f55-bfa4-2474f51ab172",
+      "name": "Moulton-Niguel Water District Division 1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "2d8fd41e-b1d7-436e-914a-24da8534fdd9",
+      "name": "Orange",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "eac76d79-44cd-41ec-ab2b-25bf3b39ae3f",
+      "name": "Buena Park",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "78eac0ad-c312-4399-aa7e-2695de008aa1",
+      "name": "Anaheim Union High School District Trustee Area 5",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "3c92567b-8e39-48b1-96b2-2a14bcde26a0",
+      "name": "Brea",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "3535f656-87eb-40d7-852a-2d35d90743c4",
+      "name": "Brea Annexation (Midbury)",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "a1745187-6ca1-4ddb-b6e8-2d94a93d5fff",
+      "name": "Newport-Mesa Unified School District Trustee Area 2",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "a0f24531-e398-4999-bc6f-2dc658102807",
+      "name": "Rancho Santiago Community College District Trustee Area 1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "ac5ae118-ccfd-4d3a-9c7d-2e71d0b5d347",
+      "name": "55th Assembly District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "b3dbe134-962b-472d-bfe6-2ebd445bc331",
+      "name": "47th Congressional District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "a40ac74b-a235-43b9-8b65-2ef41a3bb6bc",
+      "name": "North Orange County Community College District Trustee Area 3",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "d62bb996-0ca5-41b7-af7b-2f2a79fd3879",
+      "name": "Placentia",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "83859ee9-eda1-4194-8041-2f6b011ed447",
+      "name": "Rancho Santiago Community College District Trustee Area 5",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "09a4a629-2f8d-4d15-b5f5-30c026fddf45",
+      "name": "Surfside Colony Community Services District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "88c22775-3def-4afc-adeb-317090fa5f6e",
+      "name": "3rd Supervisorial District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "38160b19-bb79-4324-9643-3479b1937831",
+      "name": "South Orange County Community College District Trustee Area 6",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "fe16f8e8-eb45-4cf7-8022-38fbbf0c3ec7",
+      "name": "Newport Beach Ward Division 5",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "c2018eb3-8f16-4ecc-8d5f-3a870a325579",
+      "name": "Garden Grove",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "82f9ecbd-6330-4f22-835e-3ace45dc7cc3",
+      "name": "State Board of Equalization (4th District)",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "44ad8c90-19ea-4856-94eb-3c0546a8a6e1",
+      "name": "Capistrano Unified School District Trustee Area 3",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "16d0ce85-6cbc-4cca-adbc-3d411f41e109",
+      "name": "Buena Park School District Trustee Area 5",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "b1d91334-6099-40d3-bc11-3d683f781315",
+      "name": "Santa Ana Ward Division 4",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "4a718cd7-8784-4105-bf68-3dd10a6e5f11",
+      "name": "Costa Mesa",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "66696f74-9537-4fc0-8caa-3efaa297ffc5",
+      "name": "74th Assembly District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "f6e536b3-92a4-457e-905f-3f1790150f36",
+      "name": "Ortega",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "4132c127-000a-4462-8b92-3f1894d8554c",
+      "name": "5th Supervisorial District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "deaaf176-3800-4f16-961a-423f7c17d1ac",
+      "name": "North Laguna",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "f4d0f1a0-c786-49a6-a2a6-42afb75f542a",
+      "name": "Seal Beach Ward Division 5",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "eb518c25-225e-4d83-ae40-4349c428a382",
+      "name": "Katella",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "c88ac47c-adf3-4e84-abd6-439102799bd4",
+      "name": "Newport-Mesa Unified School District Trustee Area 5",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "d3f45cdd-9515-45ff-87ec-44a2f927f40c",
+      "name": "Garden Grove Unified School District Trustee Area 1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "adac27c6-a676-4feb-b46e-44a82cd7ab07",
+      "name": "Rancho Santiago Community College District Trustee Area 4",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "4b668a71-07ec-451f-9114-4613da073e03",
+      "name": "Newport-Mesa Unified School District Trustee Area 6",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "df96b432-d810-475c-8f13-462170d8450e",
+      "name": "Irvine Ranch Water District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "950e211f-e7a6-405c-a028-495e84432fd1",
+      "name": "South Coast Water District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "37bc9daf-c105-4fcb-b5e6-495fee214766",
+      "name": "Newport-Mesa Unified School District Trustee Area 7",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "b975ed57-b3a8-4783-8aea-4a1bdb0eab25",
+      "name": "Newport Beach Ward Division 6",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "46ed0ef7-710e-4d38-859c-4a3f5f9824ae",
+      "name": "Magnolia School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "6c916f9e-7b41-4d40-8ff2-4ac313a7d50a",
+      "name": "Fullerton Joint Union High School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "36bcd4bb-a094-441c-8c7d-4b815f779f5f",
+      "name": "Anaheim Ward Division 3",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "a70aa8bb-7971-4d56-b34d-4cade9de6b6a",
+      "name": "Santa Ana Ward Division 6",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "0da9d7fd-d7eb-4b88-aff1-4d8826951027",
+      "name": "South Orange County Community College District Trustee Area 5",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "98887557-584a-4d68-8894-4f9547be2bd1",
+      "name": "La Habra",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "e69ee1c2-37b9-4c13-935d-532a1998e55a",
+      "name": "Serrano Water District Division 5",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "fd187697-fa87-441c-b2a9-548c844f87ec",
+      "name": "Coast Community College District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "09981f9d-1b4b-4119-8cfa-549d8da41187",
+      "name": "Rancho Santiago Community College District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "cb937be7-0e2e-4010-bf01-55588b28437e",
+      "name": "Olive",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "7be488f7-6395-49a2-90f3-5a3438b8ab3a",
+      "name": "49th Congressional District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "73f90f72-f489-4022-b71c-5a695f412f64",
+      "name": "Yorba",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "9f4a7cb1-09d2-42d1-a490-5a7b070729ae",
+      "name": "Serrano Water District Division 3",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "4b60f138-475b-4449-a310-5e33abc6a002",
+      "name": "Sunset Beach Incorporation",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "5351721e-00c2-4354-b159-5e4f3f786278",
+      "name": "Anaheim Union High School District Trustee Area 3",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "202e1677-7ef8-4cd6-88a5-5ef94553fab1",
+      "name": "Mesa Water District Division 5",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "2282fa0c-3da2-4b6a-98ed-5f6fab484b09",
+      "name": "Villa Park",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "02b20422-6cae-46cf-b6b4-600204ad4313",
+      "name": "Fullerton",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "226e0c3a-91e1-4768-92dd-60335244c828",
+      "name": "Municipal Water District of Orange County Div 4",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "09927802-20ad-47ae-8094-60c35b8c6f80",
+      "name": "Trabuco Canyon Water District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "7dbda244-cab9-47c4-8283-60fb153dd61a",
+      "name": "Unincorporated Area",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "0cea0040-37c1-4d4b-aac2-61e71d054956",
+      "name": "Capistrano Unified School District Trustee Area 5",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "aaa57b8b-6844-422f-9a78-62dfc19cf3ca",
+      "name": "Lowell Joint School District (Or. Co. Portion)",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "81e63afc-64de-45b6-baae-64bbdc2f7a04",
+      "name": "Santa Ana Ward Division 1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "c2dc433f-4b59-432b-b1b9-64f202bebe53",
+      "name": "Cypress School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "046aa1cc-078e-4f86-be35-64f7a8a5b064",
+      "name": "Coast Community College District Trustee Area 5",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "1966fb5f-9fc8-4e33-b8c4-6575d66b4f6a",
+      "name": "Rossmoor/Los Alamitos Area Sewer District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "a7a3c04d-3014-444a-a818-66f7096adca1",
+      "name": "Newport Beach Ward Division 2",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "a63d8db9-bddc-4a82-af18-698449b2d788",
+      "name": "Buena Park School District Trustee Area 2",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "10d75e7f-4ed1-4584-8663-69984c9ce04e",
+      "name": "Orange County Water District Division 2",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "fc34c4a7-ce41-43e9-bf82-6a22230b2f0d",
+      "name": "Capistrano Unified School District Trustee Area 7",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "c87b9b59-3663-41a0-a19a-6b1a3d820351",
+      "name": "Surfside Colony Storm Water Protection District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "8fe82828-03b8-430a-8576-6bb1bb3ccdf8",
+      "name": "Capistrano Unified School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "8eccee4e-7a63-4882-819c-6d035cba17c5",
+      "name": "Santa Ana Unified School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "f555dc49-dbda-4629-82fe-6d22227d0b42",
+      "name": "Bayview Annexation LAFCO Petition",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "f212e941-2a5d-43a5-85c9-6e582962e4bd",
+      "name": "Coast Community College District Trustee Area 3",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "457ad1e4-2796-47cd-96f4-6e87758ff2d5",
+      "name": "East Tustin",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "13e55783-68c2-4b1b-aac5-6eb3ce780dde",
+      "name": "Capistrano Unified School District Trustee Area 4",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "92f67dac-bda5-4899-90fe-6f6f7e3184d1",
+      "name": "2nd Supervisorial District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "6ad0d476-d88f-48f6-8355-70bd6eb307e4",
+      "name": "Laguna Beach Unified School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "274f86a6-7f60-42f7-80ca-712b321764b3",
+      "name": "45th Congressional District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "c8177ae9-8db2-4ceb-a2a6-7156c1fb3e54",
+      "name": "Centralia School District Trustee Area 4",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "61d0f03b-4104-43ea-9626-72237a3851a6",
+      "name": "Serrano Water District Division 2",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "3e63ee8d-7b9b-49e1-94cc-724896a1a19d",
+      "name": "Seal Beach",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "c4d5d7fa-5616-4908-a7ab-729a6032f23d",
+      "name": "Anaheim Ward Division 2",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "5139e1d3-5a52-4425-bf53-73517f2e25c9",
+      "name": "Municipal Water District of Orange County Div 2",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "3c6fb259-5b19-4b02-8711-73a4704d8cc1",
+      "name": "Centralia School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "b00750c2-1ddf-40dc-8334-74cb819ecd20",
+      "name": "Orange County Water District Division 5",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "03c70052-1f4f-4579-91b0-767db3d865d5",
+      "name": "Newport-Mesa Unified School District Trustee Area 1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "e24f345e-a388-4923-8f06-77bbbb1be0f5",
+      "name": "Moulton-Niguel Water District Division 2",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "80cbb802-2bd5-49df-95f4-786318de7814",
+      "name": "Anaheim Ward Division 6",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "c9c34ebc-e547-487d-9ee4-79cdd92fe3e1",
+      "name": "Saddleback Valley Unified School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "8ad20404-4011-4be5-9da5-7a080546167d",
+      "name": "Yorba Linda Water District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "bbac9a27-a544-45ae-92e0-7aea05fc1272",
+      "name": "Diamond",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "c437ae24-c3f2-4533-9b0c-7be43636eb37",
+      "name": "South Orange County Community College District Trustee Area 1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "94c01292-aab1-4d8c-8e29-7c9f77741dbd",
+      "name": "36th Senate District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "f51345af-6562-4a3f-8148-7ca1a5a2b875",
+      "name": "Rossmoor",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "ae693128-9d43-4289-990d-7d2d1c05bd55",
+      "name": "34th Senate District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "3eea9d60-3d90-4400-a7af-7e2b952b8bd2",
+      "name": "County Board of Education Trustee Area 2",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "62cf329a-374f-4ace-a882-7e6daa610e84",
+      "name": "Tustin",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "8374a5a5-9589-47cf-90c9-8005aa35cd0f",
+      "name": "Anaheim Union High School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "98192a76-7107-47a2-8057-803422dd3228",
+      "name": "Huntington Beach",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "0f5aaa50-cd39-4e05-9390-81112d05ee2c",
+      "name": "Aliso Viejo",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "a8c1bfcd-375e-4e2c-b669-81f46b5ac2d9",
+      "name": "Sunset Beach Sanitary District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "b864e676-a465-4fc7-8cfd-8318639a0850",
+      "name": "73rd Assembly District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "ebcef52e-65ad-4758-8da2-84b662965b64",
+      "name": "Laguna Woods",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "a940299c-fc5d-4fd2-9731-89b330f84fde",
+      "name": "Midway City",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "3ac22252-4369-4ccf-917f-8a0f07ae4e2d",
+      "name": "Laguna Niguel",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "2db7831c-8804-488a-bdf5-8dbec0fc98e2",
+      "name": "Laguna Hills",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "7385075c-c97e-468e-903f-8e82a8f96ef6",
+      "name": "Irvine Unified School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "d57dc6b2-c890-4a4b-b8f3-9071c70ab089",
+      "name": "County Board of Education Trustee Area 1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "5acdd670-01ce-4d05-a623-9251caaa3a1a",
+      "name": "Moulton-Niguel Water District Division 5",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "b7c6e560-c170-402c-a59f-94c5c7983e08",
+      "name": "County Board of Education Trustee Area 5",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "d55b7339-25f3-4b2b-8836-96f1f7a3d0c8",
+      "name": "South Orange County Community College District Trustee Area 4",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "1e055f72-d3eb-469c-9325-971866d08f6f",
+      "name": "Bay View",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "2f59c115-ebf5-44b4-85c7-9742967cde07",
+      "name": "Moulton-Niguel Water District Division 7",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "05ce6f20-4735-4a24-8b32-97512f9280a2",
+      "name": "North Orange County Community College District Trustee Area 7",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "d80dcba2-9f14-4c73-8695-978adc84fd7a",
+      "name": "Santa Ana College Imp Dist No. 1 of RSCCD",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "555e5463-dcf9-4f2b-801a-97e4bf721020",
+      "name": "School Facilities Improv. Dist. No. 2012-1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "02eb6084-ebfc-44f4-a6e9-98ddd086ad9d",
+      "name": "68th Assembly District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "0a1efacc-45f4-4e01-91f7-996ff5807fe5",
+      "name": "Newport-Mesa Unified School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "539b275f-cb2a-47aa-86f9-9a09b3a363be",
+      "name": "Laguna Beach",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "e06e3724-8ee2-4dd3-bbac-9a4ea9a71c22",
+      "name": "San Juan Capistrano",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "9077407e-4418-4dec-9bff-9b0e091b64b9",
+      "name": "Mesa Water District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "c43a21ef-c4c4-415c-92e7-9b20369b9d93",
+      "name": "Costa Mesa Sanitary District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "0bf357ed-7c45-4f30-b180-9b7d6478aadb",
+      "name": "Emerald Bay Service District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "11a5d5eb-6616-479c-b127-9beeb7649df0",
+      "name": "Newport Beach Ward Division 1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "e6159876-ace6-4dfb-b802-9c0f6f9a6cdc",
+      "name": "Municipal Water District of Orange County Div 1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "8cc4c334-9afa-4545-a41d-9c248894b757",
+      "name": "Silverado-Modjeska Recreation and Park District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "67bd1170-ccba-42dc-851e-9d45739fc79a",
+      "name": "Garden Grove Unified School District Trustee Area 2",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "87a0dcdd-f095-416c-b89e-9f1131cf37e5",
+      "name": "Emerald Bay",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "8fffa75c-5508-4ad6-a879-9f188fb14013",
+      "name": "County Board of Education Trustee Area 4",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "5e285ee5-fadd-4b83-8dec-a016659a4918",
+      "name": "Moulton-Niguel Water District Division 4",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "03fba2a8-e96d-4f18-a330-a0d301228da9",
+      "name": "Moulton-Niguel Water District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "495e4dad-5d65-4481-9f83-a147dc47e568",
+      "name": "Municipal Water District Of Orange County",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "7c415f4b-99df-40bb-aa9a-a2a535957931",
+      "name": "Capistrano Unified School District Trustee Area 6",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "d4f3ee2f-4f77-4325-983c-a34c6d8eccc1",
+      "name": "Tustin Unified School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "08e5d010-78b4-47d1-b146-a36737cb2fa4",
+      "name": "Mesa Water District Division 4",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "31b2ca74-0ccd-4429-a3d5-a407ab4261ca",
+      "name": "North La Habra",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "e9e01cb4-c889-4037-8c2c-a429248937ee",
+      "name": "Serrano Water District Division 4",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "305d13fb-ebb4-4d9b-b534-a4747549ce92",
+      "name": "Buena Park Ward Division 1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "05d5d407-84b3-4786-b9b9-a511781befe3",
+      "name": "Anaheim Union High School District Trustee Area 1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "ec1e229b-25f1-4d58-b1c1-a6a0a495a0c4",
+      "name": "School Facilities Improv. Dist. No. 2008-1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "d505d884-c5a7-4b89-af23-a779e27a2d04",
+      "name": "Santa Ana Ward Division 5",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "19510646-24c4-49a1-8cc1-a7cd475c9e89",
+      "name": "Anaheim Union High School District Trustee Area 2",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "b4629127-aaac-4276-b8eb-a81f16752be6",
+      "name": "West Anaheim Island Annexation LAFCO",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "4a7a661a-0bf8-4de0-bcd4-a93e1bf732a1",
+      "name": "Buena Park School District Trustee Area 1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "d76ec43b-8e37-4c78-9df0-a94cdbf2fb79",
+      "name": "Orange Unified School District Trustee Area 7",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "50f2d2b9-95ef-44d7-8a69-aabdbc4efe62",
+      "name": "Anaheim Island Annexation Protest Petition",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "11afbc7d-2a1a-43d6-8905-acd80649282f",
+      "name": "South Orange County Community College District Trustee Area 2",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "9d4c3a22-21d4-4958-b692-add93b4a2f2b",
+      "name": "Orange County",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "16f0849d-638f-449b-b52e-ae1cb55079db",
+      "name": "Garden Grove Unified School District Trustee Area 5",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "bd47a472-84fa-4117-b776-b15c034eb3be",
+      "name": "Centralia School District Trustee Area 1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "4adf4116-b6e7-443e-a672-b20ccdbc3d75",
+      "name": "Orange County Water District Division 4",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "4829e8ac-d37e-4aa4-9363-b23a3c2fe2fd",
+      "name": "Fountain Valley School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "ff18d303-edea-4a18-b46d-b343ba35673c",
+      "name": "29th Senate District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "963b5a9d-e43b-4fce-81e5-b38b4dc022d3",
+      "name": "Garden Grove Unified School District Trustee Area 4",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "08056209-6ce1-481e-927c-b3acb088c24b",
+      "name": "Orange Unified School District Trustee Area 6",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "08ce33bc-8e35-4133-a228-b43af60d77ed",
+      "name": "Rossmoor Community Services District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "b39cec62-61fe-40f3-a384-b4fb6d57830e",
+      "name": "East Orange",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "0ad1be41-1a5a-4f11-992a-b5722b6f940a",
+      "name": "Seal Beach Ward Division 3",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "fdacfe39-0398-40f5-9ad4-b641c0d53722",
+      "name": "Orange Unified School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "a84bf8be-7097-4fd7-808c-b7b24cd95f37",
+      "name": "Seal Beach Ward Division 2",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "3b843aab-89df-4b17-814a-b7c3d0fc93b7",
+      "name": "Buena Park Ward Division 2",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "a002411b-cab8-41a0-82ab-b813f02fa4fc",
+      "name": "Moulton-Niguel Water District Division 3",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "751b17f2-819c-41f7-87e9-b84b1f6e90ae",
+      "name": "32nd Senate District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "a52917f1-9ead-428d-ba7d-b8d8a292e50e",
+      "name": "1st Supervisorial District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "db9819ec-e9a2-4603-aa9c-b8e9e4e95f52",
+      "name": "Garden Grove Unified School District Trustee Area 3",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "11f68762-a4a9-488f-b94c-ba5a288ba497",
+      "name": "Centralia School District Trustee Area 2",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "2cc6e8af-4f71-4aba-aa88-bae7ca366d52",
+      "name": "Municipal Water District of Orange County Div 3",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "5e16499c-b159-489d-985c-bb6191f4bf71",
+      "name": "Serrano Water District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "fab0bf00-ffe3-449f-85ec-bce0d5a8c561",
+      "name": "Irvine Unified School District Facilities Improvement District No. 1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "b6224b7c-1648-4817-97a1-bf0426e4f31a",
+      "name": "Anaheim",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "581981c3-53d7-4f0c-b444-c038e3a1ad4d",
+      "name": "Centralia School District Trustee Area 3",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "4715990d-d6ca-4fb4-ad81-c18a63e7ef70",
+      "name": "Newport Beach",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "1fd9867d-df5e-4d21-87e3-c27ec5bb625e",
+      "name": "Santa Ana",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "c38fb7db-3d54-4bb1-bd11-c3354c2ba412",
+      "name": "Newport Beach Ward Division 4",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "12aa2227-5af8-4169-a398-c642f08443ad",
+      "name": "North Orange County Community College District Trustee Area 2",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "a8d5543d-fd69-4180-9b95-c67e678ade59",
+      "name": "Cypress",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "d07266cd-3c65-459d-9dbf-c6cd13402fa8",
+      "name": "Brea Olinda Unified School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "a65b2df5-0d17-42de-b283-c73d436cc103",
+      "name": "Anaheim Ward Division 5",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "a63e2399-c7d0-44a1-bed8-c75e69dd6ad0",
+      "name": "Los Alamitos Unified School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "5325859d-a65d-4e0b-9926-c7b192692d2a",
+      "name": "Newport Coast Annexation (Helen)",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "422d411a-a009-4558-993d-c7ce1eaad5bf",
+      "name": "Orange Unified School District Trustee Area 2",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "6a0c81b9-0970-4b56-b49f-c8396db6cf51",
+      "name": "Capistrano Bay Community Services District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "dad77d85-7ac5-4a72-863e-c841abbe1965",
+      "name": "Placentia-Yorba Linda Unified School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "a37773d3-992c-4357-833c-c84df23be9e5",
+      "name": "Three Arch Bay Community Services District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "4079a94c-2428-4cf5-be8a-c904b30d823e",
+      "name": "San Clemente",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "0023c9b2-9148-4bf2-8700-c9242fd106b5",
+      "name": "Yorba Linda Proposed Annex (CC & FI)",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "7b183803-2ceb-47b0-ae26-caef01642e15",
+      "name": "39th Congressional District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "4228d21d-be87-4ffc-b4b4-cc8db19ebe95",
+      "name": "Santa Margarita Water District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "fd085c20-0068-4cc3-a8dd-cd2e1d145edd",
+      "name": "Seal Beach Ward Division 4",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "d6f64bcf-e36a-49c9-9eb3-ce84227be3d4",
+      "name": "South Orange County Community College District Trustee Area 7",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "0a9f07e3-b72b-4a35-a5e9-cf1d61a03dea",
+      "name": "Coast Community College District Trustee Area 4",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "168b97c6-40d0-43e4-8800-cf3918284925",
+      "name": "East Placentia",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "cba628bb-e8a3-4319-ad38-cf3e17e25d10",
+      "name": "Orangethorpe",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "dbc6cf62-0fb3-4e3d-a5a6-d4455e1c9e40",
+      "name": "Capistrano Unified School District Trustee Area 1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "5a385a6b-91df-4d49-a42b-d4b2e687f434",
+      "name": "Newport Beach Ward Division 7",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "862760f2-334b-40b6-a3b3-d51d4774cfa2",
+      "name": "Los AlamitosUSD SFID #1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "362650eb-648a-4397-8da2-d531db3ed9eb",
+      "name": "Placentia Library District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "92f70bb0-9f5e-4343-a1c3-d6ade73c2786",
+      "name": "Orange/Tustin Unified Trans Rockng Horse Rdg",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "e709b24c-e400-430b-bcc7-d75ea415f718",
+      "name": "Magnolia",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "d3c4c4bf-9b05-4bf9-8b65-d7d0fbb0c922",
+      "name": "El Toro Water District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "e3133f6b-ef40-44c5-9b31-d839e69cccca",
+      "name": "Orange Unified School District Trustee Area 3",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "3486e825-3d40-4945-87cc-d8b4f10e6691",
+      "name": "Orange County Water District Division 3",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "7d28ba3c-9420-4cc3-9e3a-d8c791dd00a8",
+      "name": "Talega",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "20ad839d-b5d1-4bff-8a40-d912569ed9d4",
+      "name": "Rancho Santiago Community College District Trustee Area 6",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "c2d74891-0c3a-468b-97d5-db6861e903d2",
+      "name": "Orange County Water District Division 1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "11e0d5f6-06ca-41b9-b94e-dcc4fae26ba3",
+      "name": "Orange/Tustin Unified School Dist. Reorg.",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "b2e089ef-3001-4dde-a3d4-de74746941f0",
+      "name": "Anaheim Union High School District Trustee Area 4",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "7a8b9ad6-5370-458e-a571-de9a5b35444e",
+      "name": "48th Congressional District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "fcf2b2e6-f579-43eb-ac45-dfc981c1ac1e",
+      "name": "Yorba Linda",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "a579c6c6-dc12-42d7-a56f-e0a8fba0ed29",
+      "name": "Rancho Santiago Community College District Trustee Area 3",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "1916c10d-be54-42ac-850d-e206993ad3e5",
+      "name": "Newport-Mesa Unified School District Trustee Area 4",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "93d19f7a-fef9-4d53-ab40-e28899ee21e7",
+      "name": "Anaheim Elementary School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "30a226d8-6f85-4508-9008-e30aa5e2ff0e",
+      "name": "Rancho Santiago Community College District Trustee Area 7",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "e0e44afd-6ad4-467e-b112-e4f0bbb0e580",
+      "name": "Stanton",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "1ffe3db8-b0d6-4cf5-b8d2-e5daf982fcd1",
+      "name": "Municipal Water District of Orange County Div 5",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "5f89c4a9-b350-4862-b858-e639102c2feb",
+      "name": "Coast Community College District Trustee Area 1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "bd867acd-e50f-419b-b4d8-e6a8b3fa41b9",
+      "name": "Buena Park Ward Division 3",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "f6bf2ec5-4d04-485a-ae13-e82ca304b0dd",
+      "name": "Silverado Transfer of Territory",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "cc6339a1-817f-47f1-8d8e-e889ffc034ea",
+      "name": "Municipal Water District of Orange County Div 6",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "ab9fcb7b-ee7d-4968-b096-e91e12304aa8",
+      "name": "65th Assembly District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "e169c25a-edf5-45f1-b3df-eace771116b6",
+      "name": "Westminster School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "a7a9d98e-0d5f-42e5-973d-eb142fdbd7f5",
+      "name": "Rancho Santiago Community College District Trustee Area 2",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "3997040a-d49b-4b15-aeca-eb462169c61f",
+      "name": "Brea Olinda",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "f1059b58-de57-40ff-9bb4-ec976b165abb",
+      "name": "La Habra City School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "51e82b65-17ab-43b9-92ea-ecb47660252b",
+      "name": "Trabuco",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "ad4ae943-b85f-4c73-a29f-ed3d0db9a7ae",
+      "name": "Irvine",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "1e925639-c694-4814-adae-ee8a5481515a",
+      "name": "Rowland Unified School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "4c506b69-0ca7-4d6c-8bd1-eee3f6a24c53",
+      "name": "La Palma",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "02bcd863-6a6d-4648-a2c4-f0115ec53949",
+      "name": "Orange County Water District Division 6",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "94455f85-0595-4381-8114-f13a5af7734c",
+      "name": "Ocean View School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "78bc5eb9-eca2-4b00-b750-f27df9773715",
+      "name": "38th Congressional District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "05fb68c5-2051-486a-a67e-f2d3f439a574",
+      "name": "Buena Park Ward Division 5",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "e9b8fc31-794b-467d-b43a-f3e3c057f0b0",
+      "name": "Garden Grove Unified School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "707cd34e-5333-4f48-b3a3-f5047c79b0f2",
+      "name": "UCI Campus precincts",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "4b2e4000-abe9-4245-8d79-f5e793120873",
+      "name": "North Orange County Community College District Trustee Area 6",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "e8f9ea39-88f2-4403-9261-f6432f93ab1d",
+      "name": "Los Alamitos",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "4ed5d3d7-4360-4028-9664-f65b96e44ef9",
+      "name": "South Orange County Community College District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "1979e290-b861-4b8c-bfd9-f7d64c17bcf7",
+      "name": "North Orange County Community College District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "5dc49a7d-5ed9-441e-ac1a-f8c50405650b",
+      "name": "Huntington Beach City School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "e8026050-b269-494a-8e17-fa772ec5ae76",
+      "name": "Huntington Beach Union High School District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "01064fa9-6fa6-4583-af0a-fae06fa4c813",
+      "name": "North Orange County Community College District Trustee Area 5",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "970667ea-0b02-4995-9681-fd70fcb26630",
+      "name": "Buena Park School District Trustee Area 4",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "6907e2c8-1a22-490a-8025-fdb5e3909217",
+      "name": "Buena Park Library District",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "ea48dca5-4101-4857-b5c0-fdd8a50107c1",
+      "name": "North Orange County Community College District Trustee Area 1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "b3cfe3b0-72e7-427f-a38f-fe7382edb3f7",
+      "name": "Coast Community College District Trustee Area 2",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "193f687f-a96d-4dcc-9ee1-ff4f21a909c9",
+      "name": "South Orange County Community College District Trustee Area 3",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "cc20fba6-2e6b-42d5-b97e-ff54fd9c676e",
+      "name": "Seal Beach Ward Division 1",
+      "type": "county",
+      "contact_information": null
+    },
+    {
+      "object_id": "ba0608ac-19b0-4410-b024-ffe70b4e7902",
+      "name": "Serrano Water District Division 1",
+      "type": "county",
+      "contact_information": null
+    }
+  ],
+  "parties": [
+    {
+      "object_id": "05b0dc94-b12e-4a91-ade7-f1265dd6d75c",
+      "name": {
+        "text": []
+      },
+      "abbreviation": null,
+      "color": null,
+      "logo_uri": null
+    },
+    {
+      "object_id": "9ca94bca-e968-436f-bfde-c482e2e3817d",
+      "name": {
+        "text": []
+      },
+      "abbreviation": null,
+      "color": null,
+      "logo_uri": null
+    },
+    {
+      "object_id": "b3cb373c-fed5-4f6d-8740-9bb91e2fc4a2",
+      "name": {
+        "text": []
+      },
+      "abbreviation": null,
+      "color": null,
+      "logo_uri": null
+    },
+    {
+      "object_id": "2796ea38-137c-4e38-b80b-ac155c409430",
+      "name": {
+        "text": []
+      },
+      "abbreviation": null,
+      "color": null,
+      "logo_uri": null
+    },
+    {
+      "object_id": "a52a8e25-3f8c-4071-bb9e-439acaaea952",
+      "name": {
+        "text": []
+      },
+      "abbreviation": null,
+      "color": null,
+      "logo_uri": null
+    },
+    {
+      "object_id": "069f1c9a-f5d2-4509-bc2c-3e229774d95c",
+      "name": {
+        "text": []
+      },
+      "abbreviation": null,
+      "color": null,
+      "logo_uri": null
+    }
+  ],
+  "candidates": [
+    {
+      "object_id": "6817f44e-40b3-476d-ba8c-6e71890355e3",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "2ebf6117-8b28-43c6-bc86-e6f8ec550746",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "44bfe12c-a343-47eb-bc79-177554c88d03",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "0db8b1cd-9167-4b49-a8c4-2bfaceabd6fd",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "b2a12faf-e6bd-40cc-a6e5-3a45f833d62c",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": true
+    },
+    {
+      "object_id": "74905b0a-8ea5-4737-8015-3ddc77e0c634",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": true
+    },
+    {
+      "object_id": "ede3da49-dd7b-4e53-b516-626a35c62600",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": true
+    },
+    {
+      "object_id": "be33a6d1-7a39-4a53-a4a9-7486c2995b8c",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "786280f4-ab3d-4e18-ac7b-7e6d19df398a",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "8fe5b89b-2f03-4497-8e59-90afd79ea0ab",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "686d6fd2-cc0b-4887-90c2-b2070fa57936",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "09bc7dfe-42d7-48cd-a9e2-d4d223c132e6",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "934b8174-9f1a-4f19-8ef8-fc53b91fe5a1",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "7d733386-bd44-4913-8837-1a4c3f79134a",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "be5ffe3c-b3ea-4d86-a906-56dacaf2a41f",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": true
+    },
+    {
+      "object_id": "db2809ca-db5f-475d-a877-802c37e88c85",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "d4e8fb7b-618b-4100-b31b-4f7d0d7ab33b",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "8f111b9c-f9b7-4f56-b3b9-74fc82d5e0fd",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "b350bffb-6588-442b-8126-939472543f26",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": true
+    },
+    {
+      "object_id": "54ac8737-fbc0-4da3-9b49-771204d60760",
+      "name": {
+        "text": []
+      },
+      "party_id": "9ca94bca-e968-436f-bfde-c482e2e3817d",
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "eb73260d-a3cd-48d9-bdbb-847279fa4727",
+      "name": {
+        "text": []
+      },
+      "party_id": "05b0dc94-b12e-4a91-ade7-f1265dd6d75c",
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "2be16642-4621-48f4-97a6-40028a92eb80",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "e7c26bd5-fd6e-4511-989e-d009e158b779",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "2de0e7c8-b902-497c-b47d-0df9b5f35ec6",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": true
+    },
+    {
+      "object_id": "a21520c8-617e-4cde-a625-4043922ad0df",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "097f7ecd-581b-4c85-977e-6a024e718d26",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "3ff68275-a75f-4726-bca9-790d2b1f2249",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": true
+    },
+    {
+      "object_id": "c9ee93a3-6510-4d67-8c6c-926307625009",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "ff8448d8-3b77-4645-9977-a584425d47f3",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "b7de4425-c9f4-4d4e-a4f2-f8cfc18181d4",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "be80b238-c3d2-47fa-944b-3bee42407fec",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "6554678e-3349-4bf0-8f99-57d7805c7883",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "ffcc6d43-145a-4de1-bd44-e28bfecedf03",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "442960df-6d02-4460-b8f0-ea0ccdf74c33",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "7fdc4954-c4b3-4232-bb96-63fa27467db0",
+      "name": {
+        "text": []
+      },
+      "party_id": "069f1c9a-f5d2-4509-bc2c-3e229774d95c",
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "dd432032-acfa-4c77-b5ab-70de8ead56f9",
+      "name": {
+        "text": []
+      },
+      "party_id": null,
+      "image_uri": null,
+      "is_write_in": true
+    },
+    {
+      "object_id": "ad31649b-c54b-4f3d-9dc6-9c44e0052f58",
+      "name": {
+        "text": []
+      },
+      "party_id": "a52a8e25-3f8c-4071-bb9e-439acaaea952",
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "681ea4d6-28ab-4d46-b584-c5114ab05bef",
+      "name": {
+        "text": []
+      },
+      "party_id": "9ca94bca-e968-436f-bfde-c482e2e3817d",
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "067bbe6d-3a48-4a36-8105-cce7017dacce",
+      "name": {
+        "text": []
+      },
+      "party_id": "2796ea38-137c-4e38-b80b-ac155c409430",
+      "image_uri": null,
+      "is_write_in": null
+    },
+    {
+      "object_id": "462b7fbe-0bac-409b-9c6c-eb5b2462de3a",
+      "name": {
+        "text": []
+      },
+      "party_id": "05b0dc94-b12e-4a91-ade7-f1265dd6d75c",
+      "image_uri": null,
+      "is_write_in": null
+    }
+  ],
+  "contests": [
+    {
+      "object_id": "5d75925f-95a1-4b0c-8896-feeb6f0cfd3e",
+      "sequence_order": 0,
+      "electoral_district_id": "9d4c3a22-21d4-4958-b692-add93b4a2f2b",
+      "vote_variation": "n_of_m",
+      "number_elected": 1,
+      "votes_allowed": null,
+      "name": "President and Vice President",
+      "ballot_selections": [
+        {
+          "object_id": "5d75925f-95a1-4b0c-8896-feeb6f0cfd3e-681ea4d6-28ab-4d46-b584-c5114ab05bef",
+          "sequence_order": 0,
+          "candidate_id": "681ea4d6-28ab-4d46-b584-c5114ab05bef"
+        },
+        {
+          "object_id": "5d75925f-95a1-4b0c-8896-feeb6f0cfd3e-462b7fbe-0bac-409b-9c6c-eb5b2462de3a",
+          "sequence_order": 1,
+          "candidate_id": "462b7fbe-0bac-409b-9c6c-eb5b2462de3a"
+        },
+        {
+          "object_id": "5d75925f-95a1-4b0c-8896-feeb6f0cfd3e-067bbe6d-3a48-4a36-8105-cce7017dacce",
+          "sequence_order": 2,
+          "candidate_id": "067bbe6d-3a48-4a36-8105-cce7017dacce"
+        },
+        {
+          "object_id": "5d75925f-95a1-4b0c-8896-feeb6f0cfd3e-ad31649b-c54b-4f3d-9dc6-9c44e0052f58",
+          "sequence_order": 3,
+          "candidate_id": "ad31649b-c54b-4f3d-9dc6-9c44e0052f58"
+        },
+        {
+          "object_id": "5d75925f-95a1-4b0c-8896-feeb6f0cfd3e-7fdc4954-c4b3-4232-bb96-63fa27467db0",
+          "sequence_order": 4,
+          "candidate_id": "7fdc4954-c4b3-4232-bb96-63fa27467db0"
+        },
+        {
+          "object_id": "5d75925f-95a1-4b0c-8896-feeb6f0cfd3e-dd432032-acfa-4c77-b5ab-70de8ead56f9",
+          "sequence_order": 5,
+          "candidate_id": "dd432032-acfa-4c77-b5ab-70de8ead56f9"
+        }
+      ],
+      "ballot_title": null,
+      "ballot_subtitle": null
+    },
+    {
+      "object_id": "77125bc8-4d6b-45ca-86e1-8c3964910a47",
+      "sequence_order": 1,
+      "electoral_district_id": "b864e676-a465-4fc7-8cfd-8318639a0850",
+      "vote_variation": "n_of_m",
+      "number_elected": 1,
+      "votes_allowed": null,
+      "name": "Member of the State Assembly 73rd District",
+      "ballot_selections": [
+        {
+          "object_id": "77125bc8-4d6b-45ca-86e1-8c3964910a47-eb73260d-a3cd-48d9-bdbb-847279fa4727",
+          "sequence_order": 0,
+          "candidate_id": "eb73260d-a3cd-48d9-bdbb-847279fa4727"
+        },
+        {
+          "object_id": "77125bc8-4d6b-45ca-86e1-8c3964910a47-54ac8737-fbc0-4da3-9b49-771204d60760",
+          "sequence_order": 1,
+          "candidate_id": "54ac8737-fbc0-4da3-9b49-771204d60760"
+        }
+      ],
+      "ballot_title": null,
+      "ballot_subtitle": null
+    },
+    {
+      "object_id": "6069d9ee-f8d1-41fc-84d7-381de6bc6256",
+      "sequence_order": 2,
+      "electoral_district_id": "d07266cd-3c65-459d-9dbf-c6cd13402fa8",
+      "vote_variation": "n_of_m",
+      "number_elected": 3,
+      "votes_allowed": null,
+      "name": "Brea Olinda Unified School District Governing Board Member",
+      "ballot_selections": [
+        {
+          "object_id": "6069d9ee-f8d1-41fc-84d7-381de6bc6256-be33a6d1-7a39-4a53-a4a9-7486c2995b8c",
+          "sequence_order": 0,
+          "candidate_id": "be33a6d1-7a39-4a53-a4a9-7486c2995b8c"
+        },
+        {
+          "object_id": "6069d9ee-f8d1-41fc-84d7-381de6bc6256-8fe5b89b-2f03-4497-8e59-90afd79ea0ab",
+          "sequence_order": 1,
+          "candidate_id": "8fe5b89b-2f03-4497-8e59-90afd79ea0ab"
+        },
+        {
+          "object_id": "6069d9ee-f8d1-41fc-84d7-381de6bc6256-786280f4-ab3d-4e18-ac7b-7e6d19df398a",
+          "sequence_order": 2,
+          "candidate_id": "786280f4-ab3d-4e18-ac7b-7e6d19df398a"
+        },
+        {
+          "object_id": "6069d9ee-f8d1-41fc-84d7-381de6bc6256-686d6fd2-cc0b-4887-90c2-b2070fa57936",
+          "sequence_order": 3,
+          "candidate_id": "686d6fd2-cc0b-4887-90c2-b2070fa57936"
+        },
+        {
+          "object_id": "6069d9ee-f8d1-41fc-84d7-381de6bc6256-0db8b1cd-9167-4b49-a8c4-2bfaceabd6fd",
+          "sequence_order": 4,
+          "candidate_id": "0db8b1cd-9167-4b49-a8c4-2bfaceabd6fd"
+        },
+        {
+          "object_id": "6069d9ee-f8d1-41fc-84d7-381de6bc6256-44bfe12c-a343-47eb-bc79-177554c88d03",
+          "sequence_order": 5,
+          "candidate_id": "44bfe12c-a343-47eb-bc79-177554c88d03"
+        },
+        {
+          "object_id": "6069d9ee-f8d1-41fc-84d7-381de6bc6256-ede3da49-dd7b-4e53-b516-626a35c62600",
+          "sequence_order": 6,
+          "candidate_id": "ede3da49-dd7b-4e53-b516-626a35c62600"
+        },
+        {
+          "object_id": "6069d9ee-f8d1-41fc-84d7-381de6bc6256-b2a12faf-e6bd-40cc-a6e5-3a45f833d62c",
+          "sequence_order": 7,
+          "candidate_id": "b2a12faf-e6bd-40cc-a6e5-3a45f833d62c"
+        },
+        {
+          "object_id": "6069d9ee-f8d1-41fc-84d7-381de6bc6256-74905b0a-8ea5-4737-8015-3ddc77e0c634",
+          "sequence_order": 8,
+          "candidate_id": "74905b0a-8ea5-4737-8015-3ddc77e0c634"
+        }
+      ],
+      "ballot_title": null,
+      "ballot_subtitle": null
+    },
+    {
+      "object_id": "3e86cddc-b1b5-4010-b9f8-46387930fa09",
+      "sequence_order": 3,
+      "electoral_district_id": "e44bef52-d22b-4168-9bfb-2053ab452643",
+      "vote_variation": "n_of_m",
+      "number_elected": 1,
+      "votes_allowed": null,
+      "name": "Newport-Mesa Unified School District Governing Board Member, Trustee Area 3",
+      "ballot_selections": [
+        {
+          "object_id": "3e86cddc-b1b5-4010-b9f8-46387930fa09-7d733386-bd44-4913-8837-1a4c3f79134a",
+          "sequence_order": 0,
+          "candidate_id": "7d733386-bd44-4913-8837-1a4c3f79134a"
+        },
+        {
+          "object_id": "3e86cddc-b1b5-4010-b9f8-46387930fa09-db2809ca-db5f-475d-a877-802c37e88c85",
+          "sequence_order": 1,
+          "candidate_id": "db2809ca-db5f-475d-a877-802c37e88c85"
+        },
+        {
+          "object_id": "3e86cddc-b1b5-4010-b9f8-46387930fa09-be5ffe3c-b3ea-4d86-a906-56dacaf2a41f",
+          "sequence_order": 2,
+          "candidate_id": "be5ffe3c-b3ea-4d86-a906-56dacaf2a41f"
+        }
+      ],
+      "ballot_title": null,
+      "ballot_subtitle": null
+    },
+    {
+      "object_id": "d887a681-9671-47cb-870b-ecdcc847e1da",
+      "sequence_order": 4,
+      "electoral_district_id": "e8026050-b269-494a-8e17-fa772ec5ae76",
+      "vote_variation": "n_of_m",
+      "number_elected": 2,
+      "votes_allowed": null,
+      "name": "Huntington Beach Union High School District Governing Board Member",
+      "ballot_selections": [
+        {
+          "object_id": "d887a681-9671-47cb-870b-ecdcc847e1da-c9ee93a3-6510-4d67-8c6c-926307625009",
+          "sequence_order": 0,
+          "candidate_id": "c9ee93a3-6510-4d67-8c6c-926307625009"
+        },
+        {
+          "object_id": "d887a681-9671-47cb-870b-ecdcc847e1da-097f7ecd-581b-4c85-977e-6a024e718d26",
+          "sequence_order": 1,
+          "candidate_id": "097f7ecd-581b-4c85-977e-6a024e718d26"
+        },
+        {
+          "object_id": "d887a681-9671-47cb-870b-ecdcc847e1da-b7de4425-c9f4-4d4e-a4f2-f8cfc18181d4",
+          "sequence_order": 2,
+          "candidate_id": "b7de4425-c9f4-4d4e-a4f2-f8cfc18181d4"
+        },
+        {
+          "object_id": "d887a681-9671-47cb-870b-ecdcc847e1da-a21520c8-617e-4cde-a625-4043922ad0df",
+          "sequence_order": 3,
+          "candidate_id": "a21520c8-617e-4cde-a625-4043922ad0df"
+        },
+        {
+          "object_id": "d887a681-9671-47cb-870b-ecdcc847e1da-ff8448d8-3b77-4645-9977-a584425d47f3",
+          "sequence_order": 4,
+          "candidate_id": "ff8448d8-3b77-4645-9977-a584425d47f3"
+        },
+        {
+          "object_id": "d887a681-9671-47cb-870b-ecdcc847e1da-2de0e7c8-b902-497c-b47d-0df9b5f35ec6",
+          "sequence_order": 5,
+          "candidate_id": "2de0e7c8-b902-497c-b47d-0df9b5f35ec6"
+        },
+        {
+          "object_id": "d887a681-9671-47cb-870b-ecdcc847e1da-3ff68275-a75f-4726-bca9-790d2b1f2249",
+          "sequence_order": 6,
+          "candidate_id": "3ff68275-a75f-4726-bca9-790d2b1f2249"
+        }
+      ],
+      "ballot_title": null,
+      "ballot_subtitle": null
+    },
+    {
+      "object_id": "c2b807e1-927a-4886-9671-6edd2e1a0114",
+      "sequence_order": 5,
+      "electoral_district_id": "a52917f1-9ead-428d-ba7d-b8d8a292e50e",
+      "vote_variation": "n_of_m",
+      "number_elected": 1,
+      "votes_allowed": null,
+      "name": "County Supervisor 1st District",
+      "ballot_selections": [
+        {
+          "object_id": "c2b807e1-927a-4886-9671-6edd2e1a0114-d4e8fb7b-618b-4100-b31b-4f7d0d7ab33b",
+          "sequence_order": 0,
+          "candidate_id": "d4e8fb7b-618b-4100-b31b-4f7d0d7ab33b"
+        },
+        {
+          "object_id": "c2b807e1-927a-4886-9671-6edd2e1a0114-8f111b9c-f9b7-4f56-b3b9-74fc82d5e0fd",
+          "sequence_order": 1,
+          "candidate_id": "8f111b9c-f9b7-4f56-b3b9-74fc82d5e0fd"
+        },
+        {
+          "object_id": "c2b807e1-927a-4886-9671-6edd2e1a0114-b350bffb-6588-442b-8126-939472543f26",
+          "sequence_order": 2,
+          "candidate_id": "b350bffb-6588-442b-8126-939472543f26"
+        }
+      ],
+      "ballot_title": null,
+      "ballot_subtitle": null
+    },
+    {
+      "object_id": "445136bb-5fbc-49e4-952a-96d6f4283a15",
+      "sequence_order": 6,
+      "electoral_district_id": "9d4c3a22-21d4-4958-b692-add93b4a2f2b",
+      "vote_variation": "n_of_m",
+      "number_elected": 1,
+      "votes_allowed": null,
+      "name": "53-Revenue Bonds. Statewide Voter Approval",
+      "ballot_selections": [
+        {
+          "object_id": "445136bb-5fbc-49e4-952a-96d6f4283a15-e7c26bd5-fd6e-4511-989e-d009e158b779",
+          "sequence_order": 0,
+          "candidate_id": "e7c26bd5-fd6e-4511-989e-d009e158b779"
+        },
+        {
+          "object_id": "445136bb-5fbc-49e4-952a-96d6f4283a15-2be16642-4621-48f4-97a6-40028a92eb80",
+          "sequence_order": 1,
+          "candidate_id": "2be16642-4621-48f4-97a6-40028a92eb80"
+        }
+      ],
+      "ballot_title": null,
+      "ballot_subtitle": null
+    },
+    {
+      "object_id": "e8a7d49a-1422-44ca-9110-f520d11245f1",
+      "sequence_order": 7,
+      "electoral_district_id": "9d4c3a22-21d4-4958-b692-add93b4a2f2b",
+      "vote_variation": "n_of_m",
+      "number_elected": 1,
+      "votes_allowed": null,
+      "name": "55-Tax Extension to Fund Education and Healthcare",
+      "ballot_selections": [
+        {
+          "object_id": "e8a7d49a-1422-44ca-9110-f520d11245f1-6554678e-3349-4bf0-8f99-57d7805c7883",
+          "sequence_order": 0,
+          "candidate_id": "6554678e-3349-4bf0-8f99-57d7805c7883"
+        },
+        {
+          "object_id": "e8a7d49a-1422-44ca-9110-f520d11245f1-be80b238-c3d2-47fa-944b-3bee42407fec",
+          "sequence_order": 1,
+          "candidate_id": "be80b238-c3d2-47fa-944b-3bee42407fec"
+        }
+      ],
+      "ballot_title": null,
+      "ballot_subtitle": null
+    },
+    {
+      "object_id": "ec7ffc2e-64d5-4b29-89bd-2b05a347cfdf",
+      "sequence_order": 8,
+      "electoral_district_id": "9d4c3a22-21d4-4958-b692-add93b4a2f2b",
+      "vote_variation": "n_of_m",
+      "number_elected": 1,
+      "votes_allowed": null,
+      "name": "56-Cigarette Tax to Fund Healthcare, Tobacco Use Prevention, and Law Enforcement",
+      "ballot_selections": [
+        {
+          "object_id": "ec7ffc2e-64d5-4b29-89bd-2b05a347cfdf-6817f44e-40b3-476d-ba8c-6e71890355e3",
+          "sequence_order": 0,
+          "candidate_id": "6817f44e-40b3-476d-ba8c-6e71890355e3"
+        },
+        {
+          "object_id": "ec7ffc2e-64d5-4b29-89bd-2b05a347cfdf-2ebf6117-8b28-43c6-bc86-e6f8ec550746",
+          "sequence_order": 1,
+          "candidate_id": "2ebf6117-8b28-43c6-bc86-e6f8ec550746"
+        }
+      ],
+      "ballot_title": null,
+      "ballot_subtitle": null
+    },
+    {
+      "object_id": "bde22d10-e709-4775-a85c-f89179c22c92",
+      "sequence_order": 9,
+      "electoral_district_id": "9d4c3a22-21d4-4958-b692-add93b4a2f2b",
+      "vote_variation": "n_of_m",
+      "number_elected": 1,
+      "votes_allowed": null,
+      "name": "64-Marijuana Legalization",
+      "ballot_selections": [
+        {
+          "object_id": "bde22d10-e709-4775-a85c-f89179c22c92-ffcc6d43-145a-4de1-bd44-e28bfecedf03",
+          "sequence_order": 0,
+          "candidate_id": "ffcc6d43-145a-4de1-bd44-e28bfecedf03"
+        },
+        {
+          "object_id": "bde22d10-e709-4775-a85c-f89179c22c92-442960df-6d02-4460-b8f0-ea0ccdf74c33",
+          "sequence_order": 1,
+          "candidate_id": "442960df-6d02-4460-b8f0-ea0ccdf74c33"
+        }
+      ],
+      "ballot_title": null,
+      "ballot_subtitle": null
+    },
+    {
+      "object_id": "56cc54fa-02b0-4088-8cc2-3d59d54ef6b6",
+      "sequence_order": 10,
+      "electoral_district_id": "b6224b7c-1648-4817-97a1-bf0426e4f31a",
+      "vote_variation": "n_of_m",
+      "number_elected": 1,
+      "votes_allowed": null,
+      "name": "U-City of Anaheim, Require 2/3 Vote of the City Council to Propose Taxes",
+      "ballot_selections": [
+        {
+          "object_id": "56cc54fa-02b0-4088-8cc2-3d59d54ef6b6-934b8174-9f1a-4f19-8ef8-fc53b91fe5a1",
+          "sequence_order": 0,
+          "candidate_id": "934b8174-9f1a-4f19-8ef8-fc53b91fe5a1"
+        },
+        {
+          "object_id": "56cc54fa-02b0-4088-8cc2-3d59d54ef6b6-09bc7dfe-42d7-48cd-a9e2-d4d223c132e6",
+          "sequence_order": 1,
+          "candidate_id": "09bc7dfe-42d7-48cd-a9e2-d4d223c132e6"
+        }
+      ],
+      "ballot_title": null,
+      "ballot_subtitle": null
+    }
+  ],
+  "ballot_styles": [
+    {
+      "object_id": "2b3c325c-2ca1-4f45-a03d-24871b1d484a",
+      "geopolitical_unit_ids": [
+        "11a5d5eb-6616-479c-b127-9beeb7649df0",
+        "5dc49a7d-5ed9-441e-ac1a-f8c50405650b",
+        "e44bef52-d22b-4168-9bfb-2053ab452643",
+        "d07266cd-3c65-459d-9dbf-c6cd13402fa8",
+        "a52917f1-9ead-428d-ba7d-b8d8a292e50e",
+        "82f9ecbd-6330-4f22-835e-3ace45dc7cc3",
+        "1979e290-b861-4b8c-bfd9-f7d64c17bcf7",
+        "422b9004-0d5e-4708-85f7-087e060016d3",
+        "4a749814-e26c-4b49-8931-0cfe4eef5cb9",
+        "ff18d303-edea-4a18-b46d-b343ba35673c",
+        "4b2e4000-abe9-4245-8d79-f5e793120873",
+        "8374a5a5-9589-47cf-90c9-8005aa35cd0f",
+        "b6224b7c-1648-4817-97a1-bf0426e4f31a",
+        "36bcd4bb-a094-441c-8c7d-4b815f779f5f",
+        "05d5d407-84b3-4786-b9b9-a511781befe3",
+        "f6b543bb-5600-4e21-ac30-1b74a2f37246",
+        "93d19f7a-fef9-4d53-ab40-e28899ee21e7",
+        "8fffa75c-5508-4ad6-a879-9f188fb14013",
+        "9d4c3a22-21d4-4958-b692-add93b4a2f2b",
+        "b864e676-a465-4fc7-8cfd-8318639a0850",
+        "e8026050-b269-494a-8e17-fa772ec5ae76"
+      ],
+      "party_ids": null,
+      "image_uri": null
+    },
+    {
+      "object_id": "f845792d-75c2-45a8-a926-a839a139a5c0",
+      "geopolitical_unit_ids": [
+        "e44bef52-d22b-4168-9bfb-2053ab452643",
+        "5139e1d3-5a52-4425-bf53-73517f2e25c9",
+        "eac76d79-44cd-41ec-ab2b-25bf3b39ae3f",
+        "2282fa0c-3da2-4b6a-98ed-5f6fab484b09",
+        "05fb68c5-2051-486a-a67e-f2d3f439a574",
+        "51e82b65-17ab-43b9-92ea-ecb47660252b",
+        "adac27c6-a676-4feb-b46e-44a82cd7ab07",
+        "d57dc6b2-c890-4a4b-b8f3-9071c70ab089",
+        "d7fb2d92-dac3-47e2-a097-0c8b99235adc",
+        "0a9f07e3-b72b-4a35-a5e9-cf1d61a03dea",
+        "6ddb93f8-2fe7-4667-b6de-18f3bb36e9f9",
+        "02eb6084-ebfc-44f4-a6e9-98ddd086ad9d",
+        "7dbda244-cab9-47c4-8283-60fb153dd61a",
+        "03fba2a8-e96d-4f18-a330-a0d301228da9",
+        "f297ebcd-9698-43d2-a10e-1211d75df864",
+        "fdacfe39-0398-40f5-9ad4-b641c0d53722",
+        "a042ee9c-4246-47d8-9973-08bea9446b4b",
+        "1e055f72-d3eb-469c-9325-971866d08f6f",
+        "a940299c-fc5d-4fd2-9731-89b330f84fde",
+        "193f687f-a96d-4dcc-9ee1-ff4f21a909c9",
+        "a7a3c04d-3014-444a-a818-66f7096adca1",
+        "e9b8fc31-794b-467d-b43a-f3e3c057f0b0",
+        "d4f3ee2f-4f77-4325-983c-a34c6d8eccc1",
+        "495e4dad-5d65-4481-9f83-a147dc47e568",
+        "b2e089ef-3001-4dde-a3d4-de74746941f0",
+        "a7a9d98e-0d5f-42e5-973d-eb142fdbd7f5",
+        "cc20fba6-2e6b-42d5-b97e-ff54fd9c676e",
+        "7c415f4b-99df-40bb-aa9a-a2a535957931",
+        "94c01292-aab1-4d8c-8e29-7c9f77741dbd",
+        "35bbc2ec-ee6b-4d72-9f36-121084260fed",
+        "fc34c4a7-ce41-43e9-bf82-6a22230b2f0d",
+        "98887557-584a-4d68-8894-4f9547be2bd1",
+        "f6bf2ec5-4d04-485a-ae13-e82ca304b0dd",
+        "0cea0040-37c1-4d4b-aac2-61e71d054956",
+        "b3cfe3b0-72e7-427f-a38f-fe7382edb3f7",
+        "0bf357ed-7c45-4f30-b180-9b7d6478aadb",
+        "a627621c-74e6-4dbf-af1c-0e9483bbc315",
+        "08056209-6ce1-481e-927c-b3acb088c24b",
+        "274f86a6-7f60-42f7-80ca-712b321764b3",
+        "eb518c25-225e-4d83-ae40-4349c428a382",
+        "ebb24e62-3641-4a36-b885-074b5d1333f1",
+        "751b17f2-819c-41f7-87e9-b84b1f6e90ae",
+        "7be488f7-6395-49a2-90f3-5a3438b8ab3a",
+        "4c506b69-0ca7-4d6c-8bd1-eee3f6a24c53",
+        "4079a94c-2428-4cf5-be8a-c904b30d823e",
+        "1ffe3db8-b0d6-4cf5-b8d2-e5daf982fcd1",
+        "e6159876-ace6-4dfb-b802-9c0f6f9a6cdc",
+        "d62bb996-0ca5-41b7-af7b-2f2a79fd3879",
+        "d505d884-c5a7-4b89-af23-a779e27a2d04",
+        "66696f74-9537-4fc0-8caa-3efaa297ffc5",
+        "03c70052-1f4f-4579-91b0-767db3d865d5",
+        "08ce33bc-8e35-4133-a228-b43af60d77ed",
+        "cba628bb-e8a3-4319-ad38-cf3e17e25d10",
+        "88c22775-3def-4afc-adeb-317090fa5f6e",
+        "fd085c20-0068-4cc3-a8dd-cd2e1d145edd",
+        "a002411b-cab8-41a0-82ab-b813f02fa4fc",
+        "c52b1c4d-46e1-4b2e-b7f3-1efb1e307b9a",
+        "7b183803-2ceb-47b0-ae26-caef01642e15",
+        "bd867acd-e50f-419b-b4d8-e6a8b3fa41b9",
+        "b00750c2-1ddf-40dc-8334-74cb819ecd20",
+        "5acdd670-01ce-4d05-a623-9251caaa3a1a",
+        "87a0dcdd-f095-416c-b89e-9f1131cf37e5",
+        "5e16499c-b159-489d-985c-bb6191f4bf71",
+        "e69ee1c2-37b9-4c13-935d-532a1998e55a",
+        "e4646891-fdc8-4936-babe-1eb5fc823130",
+        "0a1efacc-45f4-4e01-91f7-996ff5807fe5",
+        "077293d2-56c7-4db1-94db-0ffd83569a1e",
+        "09a4a629-2f8d-4d15-b5f5-30c026fddf45",
+        "c2018eb3-8f16-4ecc-8d5f-3a870a325579",
+        "6c916f9e-7b41-4d40-8ff2-4ac313a7d50a",
+        "16d0ce85-6cbc-4cca-adbc-3d411f41e109",
+        "05ce6f20-4735-4a24-8b32-97512f9280a2",
+        "d76ec43b-8e37-4c78-9df0-a94cdbf2fb79",
+        "5351721e-00c2-4354-b159-5e4f3f786278",
+        "539b275f-cb2a-47aa-86f9-9a09b3a363be",
+        "cc6339a1-817f-47f1-8d8e-e889ffc034ea",
+        "c87b9b59-3663-41a0-a19a-6b1a3d820351",
+        "3eea9d60-3d90-4400-a7af-7e2b952b8bd2",
+        "fd187697-fa87-441c-b2a9-548c844f87ec",
+        "b7c6e560-c170-402c-a59f-94c5c7983e08",
+        "92f70bb0-9f5e-4343-a1c3-d6ade73c2786",
+        "4b668a71-07ec-451f-9114-4613da073e03",
+        "d80dcba2-9f14-4c73-8695-978adc84fd7a",
+        "09981f9d-1b4b-4119-8cfa-549d8da41187",
+        "12aa2227-5af8-4169-a398-c642f08443ad",
+        "2cc6e8af-4f71-4aba-aa88-bae7ca366d52",
+        "bd47a472-84fa-4117-b776-b15c034eb3be",
+        "7385075c-c97e-468e-903f-8e82a8f96ef6",
+        "98192a76-7107-47a2-8057-803422dd3228",
+        "8eccee4e-7a63-4882-819c-6d035cba17c5",
+        "495268bb-8c2c-49fb-bf39-0cb0e2904176",
+        "a8c1bfcd-375e-4e2c-b669-81f46b5ac2d9",
+        "11f68762-a4a9-488f-b94c-ba5a288ba497",
+        "c2dc433f-4b59-432b-b1b9-64f202bebe53",
+        "81e63afc-64de-45b6-baae-64bbdc2f7a04",
+        "cefe32b6-3e5a-4e0b-89dc-20b9bed37f01",
+        "ad4ae943-b85f-4c73-a29f-ed3d0db9a7ae",
+        "4c54f3e1-e387-4af5-bd18-10a09c0cd3ad",
+        "7a8b9ad6-5370-458e-a571-de9a5b35444e",
+        "4adf4116-b6e7-443e-a672-b20ccdbc3d75",
+        "b975ed57-b3a8-4783-8aea-4a1bdb0eab25",
+        "56273f22-64b0-4e72-bc85-02a51b07ec96",
+        "01064fa9-6fa6-4583-af0a-fae06fa4c813",
+        "4a7a661a-0bf8-4de0-bcd4-a93e1bf732a1",
+        "ae693128-9d43-4289-990d-7d2d1c05bd55",
+        "c88ac47c-adf3-4e84-abd6-439102799bd4",
+        "13e55783-68c2-4b1b-aac5-6eb3ce780dde",
+        "7788dcaf-abe8-4cb2-8cf4-2399b0d385e1",
+        "5325859d-a65d-4e0b-9926-c7b192692d2a",
+        "e709b24c-e400-430b-bcc7-d75ea415f718",
+        "db9819ec-e9a2-4603-aa9c-b8e9e4e95f52",
+        "d6f64bcf-e36a-49c9-9eb3-ce84227be3d4",
+        "92f67dac-bda5-4899-90fe-6f6f7e3184d1",
+        "ac5ae118-ccfd-4d3a-9c7d-2e71d0b5d347",
+        "d3f45cdd-9515-45ff-87ec-44a2f927f40c",
+        "581981c3-53d7-4f0c-b444-c038e3a1ad4d",
+        "3486e825-3d40-4945-87cc-d8b4f10e6691",
+        "5f89c4a9-b350-4862-b858-e639102c2feb",
+        "d07266cd-3c65-459d-9dbf-c6cd13402fa8",
+        "c40d5ba0-3c65-4ad6-a6db-07d7380f8d61",
+        "f555dc49-dbda-4629-82fe-6d22227d0b42",
+        "f1059b58-de57-40ff-9bb4-ec976b165abb",
+        "8fe82828-03b8-430a-8576-6bb1bb3ccdf8",
+        "5a385a6b-91df-4d49-a42b-d4b2e687f434",
+        "64ca287c-8b48-4c2c-8377-1dfa24c7e055",
+        "cb937be7-0e2e-4010-bf01-55588b28437e",
+        "5dc49a7d-5ed9-441e-ac1a-f8c50405650b",
+        "94455f85-0595-4381-8114-f13a5af7734c",
+        "1966fb5f-9fc8-4e33-b8c4-6575d66b4f6a",
+        "e24f345e-a388-4923-8f06-77bbbb1be0f5",
+        "c43a21ef-c4c4-415c-92e7-9b20369b9d93",
+        "2f59c115-ebf5-44b4-85c7-9742967cde07",
+        "362650eb-648a-4397-8da2-d531db3ed9eb",
+        "b4629127-aaac-4276-b8eb-a81f16752be6",
+        "a8d5543d-fd69-4180-9b95-c67e678ade59",
+        "80cbb802-2bd5-49df-95f4-786318de7814",
+        "950e211f-e7a6-405c-a028-495e84432fd1",
+        "ad17f63d-5075-4c7b-a1d4-21062a569047",
+        "38160b19-bb79-4324-9643-3479b1937831",
+        "bbac9a27-a544-45ae-92e0-7aea05fc1272",
+        "970667ea-0b02-4995-9681-fd70fcb26630",
+        "0ad1be41-1a5a-4f11-992a-b5722b6f940a",
+        "1fd9867d-df5e-4d21-87e3-c27ec5bb625e",
+        "a63d8db9-bddc-4a82-af18-698449b2d788",
+        "16f0849d-638f-449b-b52e-ae1cb55079db",
+        "0da9d7fd-d7eb-4b88-aff1-4d8826951027",
+        "c8177ae9-8db2-4ceb-a2a6-7156c1fb3e54",
+        "67bd1170-ccba-42dc-851e-9d45739fc79a",
+        "c437ae24-c3f2-4533-9b0c-7be43636eb37",
+        "a63e2399-c7d0-44a1-bed8-c75e69dd6ad0",
+        "5e285ee5-fadd-4b83-8dec-a016659a4918",
+        "73f90f72-f489-4022-b71c-5a695f412f64",
+        "fe16f8e8-eb45-4cf7-8022-38fbbf0c3ec7",
+        "046aa1cc-078e-4f86-be35-64f7a8a5b064",
+        "422d411a-a009-4558-993d-c7ce1eaad5bf",
+        "8ad20404-4011-4be5-9da5-7a080546167d",
+        "6a0c81b9-0970-4b56-b49f-c8396db6cf51",
+        "11a5d5eb-6616-479c-b127-9beeb7649df0",
+        "e8f9ea39-88f2-4403-9261-f6432f93ab1d",
+        "20ad839d-b5d1-4bff-8a40-d912569ed9d4",
+        "3eb4e745-7d80-4c2c-8306-003cfe530e14",
+        "c2d74891-0c3a-468b-97d5-db6861e903d2",
+        "3c92567b-8e39-48b1-96b2-2a14bcde26a0",
+        "862760f2-334b-40b6-a3b3-d51d4774cfa2",
+        "3c6fb259-5b19-4b02-8711-73a4704d8cc1",
+        "3e63ee8d-7b9b-49e1-94cc-724896a1a19d",
+        "ec1e229b-25f1-4d58-b1c1-a6a0a495a0c4",
+        "f4d0f1a0-c786-49a6-a2a6-42afb75f542a",
+        "1f97456e-ece2-44e1-bb50-1bd3235999c6",
+        "46ed0ef7-710e-4d38-859c-4a3f5f9824ae",
+        "cfea8b93-f006-4659-a969-03a9990066ee",
+        "4a718cd7-8784-4105-bf68-3dd10a6e5f11",
+        "3771877e-9c61-4845-a73a-0a79004e73d7",
+        "0f5aaa50-cd39-4e05-9390-81112d05ee2c",
+        "b39cec62-61fe-40f3-a384-b4fb6d57830e",
+        "50f2d2b9-95ef-44d7-8a69-aabdbc4efe62",
+        "37bc9daf-c105-4fcb-b5e6-495fee214766",
+        "a579c6c6-dc12-42d7-a56f-e0a8fba0ed29",
+        "202e1677-7ef8-4cd6-88a5-5ef94553fab1",
+        "8cc4c334-9afa-4545-a41d-9c248894b757",
+        "1fcc4633-dece-49cf-b25f-0ec94a03da0d",
+        "9077407e-4418-4dec-9bff-9b0e091b64b9",
+        "7d28ba3c-9420-4cc3-9e3a-d8c791dd00a8",
+        "4609d0b9-e32c-4814-98b3-19eda3e8cdbe",
+        "d38f4ce6-982d-4f55-bfa4-2474f51ab172",
+        "1a9e9738-d99d-4782-90dc-0606603c00ae",
+        "3997040a-d49b-4b15-aeca-eb462169c61f",
+        "c9c34ebc-e547-487d-9ee4-79cdd92fe3e1",
+        "da4bad23-081d-4fb8-bdee-2450a270db1a",
+        "f76ebbf1-c61b-46f5-b243-22dbf8dc532f",
+        "4829e8ac-d37e-4aa4-9363-b23a3c2fe2fd",
+        "dad77d85-7ac5-4a72-863e-c841abbe1965",
+        "fcf2b2e6-f579-43eb-ac45-dfc981c1ac1e",
+        "457ad1e4-2796-47cd-96f4-6e87758ff2d5",
+        "3406933b-7a58-49fe-901d-0061db02f821",
+        "305d13fb-ebb4-4d9b-b534-a4747549ce92",
+        "e0e44afd-6ad4-467e-b112-e4f0bbb0e580",
+        "ab9fcb7b-ee7d-4968-b096-e91e12304aa8",
+        "a40ac74b-a235-43b9-8b65-2ef41a3bb6bc",
+        "4132c127-000a-4462-8b92-3f1894d8554c",
+        "4228d21d-be87-4ffc-b4b4-cc8db19ebe95",
+        "aaa57b8b-6844-422f-9a78-62dfc19cf3ca",
+        "f6e536b3-92a4-457e-905f-3f1790150f36",
+        "ea569ca5-0c6f-42e3-af9e-0b92501b8a9e",
+        "6907e2c8-1a22-490a-8025-fdb5e3909217",
+        "0e4bc374-51f2-4326-9751-21abacb3345c",
+        "2d8fd41e-b1d7-436e-914a-24da8534fdd9",
+        "707cd34e-5333-4f48-b3a3-f5047c79b0f2",
+        "6ad0d476-d88f-48f6-8355-70bd6eb307e4",
+        "3535f656-87eb-40d7-852a-2d35d90743c4",
+        "30a226d8-6f85-4508-9008-e30aa5e2ff0e",
+        "ebcef52e-65ad-4758-8da2-84b662965b64",
+        "a0f24531-e398-4999-bc6f-2dc658102807",
+        "3b843aab-89df-4b17-814a-b7c3d0fc93b7",
+        "963b5a9d-e43b-4fce-81e5-b38b4dc022d3",
+        "8bd180e4-1037-4f11-8aa6-0ff40d0aed79",
+        "11e0d5f6-06ca-41b9-b94e-dcc4fae26ba3",
+        "31b2ca74-0ccd-4429-a3d5-a407ab4261ca",
+        "b1d91334-6099-40d3-bc11-3d683f781315",
+        "0023c9b2-9148-4bf2-8700-c9242fd106b5",
+        "e06e3724-8ee2-4dd3-bbac-9a4ea9a71c22",
+        "a37773d3-992c-4357-833c-c84df23be9e5",
+        "83859ee9-eda1-4194-8041-2f6b011ed447",
+        "c062cba2-6319-4b1c-b0d0-21ac9610a048",
+        "f212e941-2a5d-43a5-85c9-6e582962e4bd",
+        "c4d5d7fa-5616-4908-a7ab-729a6032f23d",
+        "02b20422-6cae-46cf-b6b4-600204ad4313",
+        "1faf10e2-6484-482e-9132-1e9d12f9be5d",
+        "19510646-24c4-49a1-8cc1-a7cd475c9e89",
+        "44ad8c90-19ea-4856-94eb-3c0546a8a6e1",
+        "5a129a81-3c1f-4ba1-9973-0db82715af4f",
+        "dbc6cf62-0fb3-4e3d-a5a6-d4455e1c9e40",
+        "fde4a665-136c-4de0-828a-18ce3c80900a",
+        "a70aa8bb-7971-4d56-b34d-4cade9de6b6a",
+        "a84bf8be-7097-4fd7-808c-b7b24cd95f37",
+        "d55b7339-25f3-4b2b-8836-96f1f7a3d0c8",
+        "e8026050-b269-494a-8e17-fa772ec5ae76",
+        "9679e66f-6a4f-4336-b890-0bd168b97555",
+        "a65b2df5-0d17-42de-b283-c73d436cc103",
+        "ea48dca5-4101-4857-b5c0-fdd8a50107c1",
+        "08c50cf3-5c10-43d8-8261-0b6b234da82e",
+        "78eac0ad-c312-4399-aa7e-2695de008aa1",
+        "4ed5d3d7-4360-4028-9664-f65b96e44ef9",
+        "08e5d010-78b4-47d1-b146-a36737cb2fa4",
+        "b3dbe134-962b-472d-bfe6-2ebd445bc331",
+        "10d75e7f-4ed1-4584-8663-69984c9ce04e",
+        "deaaf176-3800-4f16-961a-423f7c17d1ac",
+        "df96b432-d810-475c-8f13-462170d8450e",
+        "e169c25a-edf5-45f1-b3df-eace771116b6",
+        "61d0f03b-4104-43ea-9626-72237a3851a6",
+        "3ac22252-4369-4ccf-917f-8a0f07ae4e2d",
+        "1916c10d-be54-42ac-850d-e206993ad3e5",
+        "2db7831c-8804-488a-bdf5-8dbec0fc98e2",
+        "02bcd863-6a6d-4648-a2c4-f0115ec53949",
+        "226e0c3a-91e1-4768-92dd-60335244c828",
+        "11afbc7d-2a1a-43d6-8905-acd80649282f",
+        "4715990d-d6ca-4fb4-ad81-c18a63e7ef70",
+        "78bc5eb9-eca2-4b00-b750-f27df9773715",
+        "a52917f1-9ead-428d-ba7d-b8d8a292e50e",
+        "9f4a7cb1-09d2-42d1-a490-5a7b070729ae",
+        "a1745187-6ca1-4ddb-b6e8-2d94a93d5fff",
+        "e3133f6b-ef40-44c5-9b31-d839e69cccca",
+        "f51345af-6562-4a3f-8148-7ca1a5a2b875",
+        "c38fb7db-3d54-4bb1-bd11-c3354c2ba412",
+        "62cf329a-374f-4ace-a882-7e6daa610e84",
+        "555e5463-dcf9-4f2b-801a-97e4bf721020",
+        "fab0bf00-ffe3-449f-85ec-bce0d5a8c561",
+        "1e925639-c694-4814-adae-ee8a5481515a",
+        "e9e01cb4-c889-4037-8c2c-a429248937ee",
+        "168b97c6-40d0-43e4-8800-cf3918284925",
+        "09927802-20ad-47ae-8094-60c35b8c6f80",
+        "ba0608ac-19b0-4410-b024-ffe70b4e7902",
+        "4b60f138-475b-4449-a310-5e33abc6a002",
+        "d3c4c4bf-9b05-4bf9-8b65-d7d0fbb0c922",
+        "9d4c3a22-21d4-4958-b692-add93b4a2f2b",
+        "b864e676-a465-4fc7-8cfd-8318639a0850"
+      ],
+      "party_ids": null,
+      "image_uri": null
+    }
+  ],
+  "name": {
+    "text": [
+      {
+        "value": "Orange County, CA,D10_Changed Orange County-2.6 Cuyahoga-With No Candidate Filed",
+        "language": "en"
+      }
+    ]
+  },
+  "contact_information": {
+    "address_line": null,
+    "email": null,
+    "phone": null,
+    "name": "n/a"
+  }
+}

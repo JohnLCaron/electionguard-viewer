@@ -286,7 +286,7 @@ public class SubmittedBallotsTable extends JPanel {
         this.mselection = match.get();
       } else {
         java.util.List<String> list = contestBean.mcontest.getSelections().stream().map(it -> it.getSelectionId()).toList();
-        System.out.printf("Looking for %s in %s%n", selection.getSelectionId(), list);
+        // System.out.printf("Looking for %s in %s%n", selection.getSelectionId(), list);
       }
     }
 

@@ -7,6 +7,7 @@ import electionguard.ballot.ElectionConstants;
 import electionguard.ballot.EncryptedBallot;
 import electionguard.ballot.Manifest;
 import electionguard.core.GroupContext;
+import electionguard.json.JsonConsumer;
 import electionguard.publish.Consumer;
 import electionguard.publish.ElectionRecord;
 import electionguard.verifier.Verifier;
@@ -132,7 +133,12 @@ class ElectionRecordPanel extends JPanel {
 
   boolean setElectionRecord(String electionRecordLocation) {
     try {
-      this.record = electionRecordFromConsumer(new Consumer(electionRecordLocation, group));
+      JsonConsumer json = new JsonConsumer(electionRecordLocation);
+      if (json.isValidElectionRecord(new Formatter())) {
+        this.record = json.readElectionRecord();
+      } else {
+        this.record = electionRecordFromConsumer(new Consumer(electionRecordLocation, group));
+      }
 
       manifestTable.setElectionManifest(record.manifest());
 
