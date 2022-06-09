@@ -1,6 +1,7 @@
 package electionguard.json;
 
 import electionguard.ballot.DecryptingGuardian;
+import electionguard.ballot.ElectionConstants;
 import electionguard.ballot.EncryptedBallot;
 import electionguard.ballot.EncryptedTally;
 import electionguard.ballot.Guardian;
@@ -12,6 +13,7 @@ import java.io.IOException;
 import java.util.Formatter;
 
 import static com.google.common.truth.Truth.assertThat;
+import static electionguard.viewer.KUtils.productionGroup;
 
 public class TestJsonConsumer {
   String topdir = "/home/snake/tmp/electionguard/electionRecord25May2022";
@@ -27,9 +29,20 @@ public class TestJsonConsumer {
   }
 
   @Test
-  public void testJsonOther() throws IOException {
+  public void testJsonConstants() throws IOException {
     JsonConsumer consumer = new JsonConsumer(topdir);
     assertThat(consumer.readConstants()).isNotNull();
+    ElectionConstants constants = consumer.readConstants();
+    ElectionConstants expected = productionGroup().getConstants();
+    assertThat(constants.getLargePrime()).isEqualTo(expected.getLargePrime());
+    assertThat(constants.getSmallPrime()).isEqualTo(expected.getSmallPrime());
+    assertThat(constants.getCofactor()).isEqualTo(expected.getCofactor());
+    assertThat(constants.getGenerator()).isEqualTo(expected.getGenerator());
+  }
+
+  @Test
+  public void testJsonOther() throws IOException {
+    JsonConsumer consumer = new JsonConsumer(topdir);
     assertThat(consumer.readContext()).isNotNull();
     assertThat(consumer.readDevices()).isNotEmpty();
   }

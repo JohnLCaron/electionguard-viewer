@@ -2,10 +2,8 @@ package electionguard.json;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
-import com.google.gson.reflect.TypeToken;
 import electionguard.ballot.ElectionConstants;
 
-import java.lang.reflect.Type;
 import java.math.BigInteger;
 
 /** Conversion between ElectionConstants and Json, using python's object model. */

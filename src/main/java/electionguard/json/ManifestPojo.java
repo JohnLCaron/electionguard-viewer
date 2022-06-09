@@ -1,6 +1,5 @@
 package electionguard.json;
 
-import com.google.common.base.Strings;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import electionguard.ballot.Manifest;
@@ -148,16 +147,23 @@ public class ManifestPojo {
       return null;
     }
     UInt256 crypto = hashElements(
-            Strings.nullToEmpty(pojo.annotation),
-            Strings.nullToEmpty(pojo.value)
+            nullToEmpty(pojo.annotation),
+            nullToEmpty(pojo.value)
     );
 
     return new Manifest.AnnotatedString(
-            Strings.nullToEmpty(pojo.annotation),
-            Strings.nullToEmpty(pojo.value),
+            nullToEmpty(pojo.annotation),
+            nullToEmpty(pojo.value),
             crypto);
   }
+  
+  static String nullToEmpty(String s) {
+    return (s == null) ? "" : s;
+  }
 
+  static String emptyToNull(String s) {
+    return (s != null && s.isEmpty()) ? null : s;
+  }
 
   @Nullable
   private static Manifest.BallotStyle convertBallotStyle(@Nullable BallotStyle pojo) {
@@ -165,14 +171,14 @@ public class ManifestPojo {
       return null;
     }
     UInt256 crypto = hashElements(
-            ConvertPojos.convertCollection(pojo.geopolitical_unit_ids, Strings::nullToEmpty),
-            ConvertPojos.convertCollection(pojo.party_ids, Strings::nullToEmpty),
-            Strings.emptyToNull(pojo.image_uri)
+            ConvertPojos.convertCollection(pojo.geopolitical_unit_ids, ManifestPojo::nullToEmpty),
+            ConvertPojos.convertCollection(pojo.party_ids, ManifestPojo::nullToEmpty),
+            ManifestPojo.emptyToNull(pojo.image_uri)
     );
     return new Manifest.BallotStyle(pojo.object_id,
-            ConvertPojos.convertCollection(pojo.geopolitical_unit_ids, Strings::nullToEmpty),
-            ConvertPojos.convertCollection(pojo.party_ids, Strings::nullToEmpty),
-            Strings.emptyToNull(pojo.image_uri),
+            ConvertPojos.convertCollection(pojo.geopolitical_unit_ids, ManifestPojo::nullToEmpty),
+            ConvertPojos.convertCollection(pojo.party_ids, ManifestPojo::nullToEmpty),
+            ManifestPojo.emptyToNull(pojo.image_uri),
             crypto);
   }
 
@@ -202,13 +208,13 @@ public class ManifestPojo {
       return null;
     }
     UInt256 crypto = hashElements(
-            ConvertPojos.convertCollection(pojo.address_line, Strings::nullToEmpty),
+            ConvertPojos.convertCollection(pojo.address_line, ManifestPojo::nullToEmpty),
             ConvertPojos.convertCollection(pojo.email, ManifestPojo::convertAnnotatedString),
             ConvertPojos.convertCollection(pojo.phone, ManifestPojo::convertAnnotatedString),
             pojo.name
             );
     return new Manifest.ContactInformation(
-            ConvertPojos.convertCollection(pojo.address_line, Strings::nullToEmpty),
+            ConvertPojos.convertCollection(pojo.address_line, ManifestPojo::nullToEmpty),
             ConvertPojos.convertCollection(pojo.email, ManifestPojo::convertAnnotatedString),
             ConvertPojos.convertCollection(pojo.phone, ManifestPojo::convertAnnotatedString),
             pojo.name,
@@ -285,12 +291,12 @@ public class ManifestPojo {
       return null;
     }
     UInt256 crypto = hashElements(
-            Strings.nullToEmpty(pojo.value),
-            Strings.nullToEmpty(pojo.language)
+            nullToEmpty(pojo.value),
+            nullToEmpty(pojo.language)
     );
     return new Manifest.Language(
-            Strings.nullToEmpty(pojo.value),
-            Strings.nullToEmpty(pojo.language),
+            nullToEmpty(pojo.value),
+            nullToEmpty(pojo.language),
             crypto);
   }
 
