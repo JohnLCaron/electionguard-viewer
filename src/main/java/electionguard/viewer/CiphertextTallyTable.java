@@ -1,6 +1,5 @@
 package electionguard.viewer;
 
-import com.google.common.collect.ImmutableList;
 import electionguard.ballot.EncryptedTally;
 import ucar.ui.prefs.BeanTable;
 import ucar.ui.widget.BAMutil;
@@ -62,7 +61,7 @@ public class CiphertextTallyTable extends JPanel {
   }
 
   void setCiphertextTally(EncryptedTally plaintextTally) {
-    tallyTable.setBeans(ImmutableList.of(new CiphertextTallyBean(plaintextTally)));
+    tallyTable.setBeans(java.util.List.of(new CiphertextTallyBean(plaintextTally)));
 
     java.util.List<ContestBean> beanList = new ArrayList<>();
     for (EncryptedTally.Contest c : plaintextTally.getContests()) {

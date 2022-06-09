@@ -25,14 +25,8 @@ dependencies {
 }
 
 dependencies {
-
-    implementation(libs.bytesLib)
-    implementation(platform(libs.grpcBom))
-    implementation(libs.grpcProtobuf)
-    implementation(libs.grpcStub)
     implementation(libs.guava)
     implementation(libs.gson)
-    implementation(libs.jcommander)
     implementation(libs.jsr305)
     implementation(libs.flogger)
 
@@ -52,7 +46,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0")
 
     // Useful, portable routines
-    implementation("io.ktor:ktor-utils:1.6.8")
+    // implementation("io.ktor:ktor-utils:1.6.8")
 
     // Portable logging interface. On the JVM, we'll get "logback", which gives
     // us lots of features. On Native, it ultimately just prints to stdout.
@@ -64,9 +58,6 @@ dependencies {
 
     // A multiplatform Kotlin library for working with protobuf.
     implementation("pro.streem.pbandk:pbandk-runtime:$pbandkVersion")
-
-    // A multiplatform Kotlin library for command-line parsing (could use enableEndorsedLibs instead)
-    implementation("org.jetbrains.kotlinx:kotlinx-cli:0.3.4")
 
     // A multiplatform Kotlin library for Result monads
     implementation("com.michael-bull.kotlin-result:kotlin-result:1.1.15")
@@ -84,12 +75,13 @@ tasks {
         archiveClassifier.set("all")
         duplicatesStrategy = DuplicatesStrategy.EXCLUDE
         manifest {
-            attributes("Main-Class" to "electionguard.viewer.ElectionGuardViewer")
+            attributes("Main-Class" to "electionguard.viewer.ViewerMain")
         }
         from(configurations.runtimeClasspath.get()
             // .onEach { println("add from dependencies: ${it.name}") }
             .map { if (it.isDirectory) it else zipTree(it) })
         val sourcesMain = sourceSets.main.get()
+        // exclude("/META-INF/PFOPENSO.*")
         // sourcesMain.allSource.forEach { println("add from sources: ${it.name}") }
         from(sourcesMain.output)
     }

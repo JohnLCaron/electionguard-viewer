@@ -1,7 +1,5 @@
 package electionguard.viewer;
 
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.Iterables;
 import electionguard.ballot.DecryptingGuardian;
 import electionguard.ballot.ElectionConstants;
 import electionguard.ballot.EncryptedBallot;
@@ -22,10 +20,11 @@ import ucar.util.prefs.PreferencesExt;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
+import java.math.BigInteger;
 import java.util.Formatter;
+import java.util.stream.StreamSupport;
 
 import static electionguard.publish.ElectionRecordFactoryKt.electionRecordFromConsumer;
-import static java.util.Collections.emptyList;
 
 class ElectionRecordPanel extends JPanel {
   private final PreferencesExt prefs;
@@ -123,7 +122,7 @@ class ElectionRecordPanel extends JPanel {
 
     JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
     tabbedPane.addTab("Manifest", this.manifestTable);
-    tabbedPane.addTab("SubmittedBallots", this.submittedBallotsTable);
+    tabbedPane.addTab("EncryptedBallots", this.submittedBallotsTable);
     tabbedPane.addTab("CiphertextTally", this.ciphertextTallyTable);
     tabbedPane.addTab("ElectionTally", this.plaintextTallyTable);
     tabbedPane.addTab("SpoiledBallots", this.spoiledBallotsTable);
@@ -148,7 +147,7 @@ class ElectionRecordPanel extends JPanel {
         ciphertextTallyTable.setCiphertextTally(record.encryptedTally());
       }
       if (record.decryptedTally() != null) {
-        plaintextTallyTable.setPlaintextTallies(record.manifest(), ImmutableList.of(record.decryptedTally()));
+        plaintextTallyTable.setPlaintextTallies(record.manifest(), java.util.List.of(record.decryptedTally()));
       }
       spoiledBallotsTable.setPlaintextTallies(record.manifest(), record.spoiledBallotTallies());
     } catch (Exception e) {
@@ -181,10 +180,10 @@ class ElectionRecordPanel extends JPanel {
       ElectionConstants constants = record.constants();
       f.format("%nConstants%n");
       f.format("  name = %s%n", constants.getName());
-      f.format("  large_prime = %s%n", group.binaryToElementModP(constants.getLargePrime()).toStringShort());
-      f.format("  small_prime = %s%n", group.binaryToElementModQ(constants.getSmallPrime()));
-      f.format("  cofactor    = %s%n", group.binaryToElementModP(constants.getCofactor()).toStringShort());
-      f.format("  generator   = %s%n", group.binaryToElementModP(constants.getGenerator()).toStringShort());
+      f.format("  large_prime = %s%n", new BigInteger(1, constants.getLargePrime()));
+      f.format("  small_prime = %s%n", new BigInteger(1, constants.getSmallPrime()));
+      f.format("  cofactor    = %s%n", new BigInteger(1, constants.getCofactor()));
+      f.format("  generator   = %s%n", new BigInteger(1, constants.getGenerator()));
 
       f.format("%nContext%n");
       f.format("  number_of_guardians = %s%n", record.numberOfGuardians());
@@ -212,11 +211,15 @@ class ElectionRecordPanel extends JPanel {
         f.format("    %10s %10d %10s%n", guardian.getGuardianId(), guardian.getXCoordinate(), guardian.getLagrangeCoordinate());
       }
 
-      f.format("%nAcceptedBallots %d%n", Iterables.size(record.encryptedBallots(null)));
-      f.format("SpoiledBallots %d%n", Iterables.size(record.spoiledBallotTallies()));
+      f.format("%nEncryptedBallots %d%n", sizeof(record.encryptedBallots(null)));
+      f.format("SpoiledBallotTallies %d%n", sizeof(record.spoiledBallotTallies()));
       f.format("EncryptedTally present = %s%n", record.encryptedTally() != null);
       f.format("DecryptedTally present = %s%n", record.decryptedTally() != null);
     }
+  }
+
+  long sizeof(Iterable<?> iter) {
+    return StreamSupport.stream(iter.spliterator(), false).count();
   }
 
   void verify(Formatter f) {
