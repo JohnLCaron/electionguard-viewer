@@ -48,7 +48,7 @@ public class PlaintextTallyTable extends JPanel {
       }
     });
     tallyTable.addPopupOption("Show Tally", tallyTable.makeShowAction(infoTA, infoWindow,
-            bean -> ((PlaintextTallyBean)bean).tally.toString()));
+            bean -> ((PlaintextTallyBean)bean).tally.showTally()));
 
     contestTable = new BeanTable<>(ContestBean.class, (PreferencesExt) prefs.node("ContestTable"), false,
             "Contest", "PlaintextTally.Contest", null);

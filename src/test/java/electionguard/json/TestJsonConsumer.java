@@ -6,6 +6,7 @@ import electionguard.ballot.EncryptedBallot;
 import electionguard.ballot.EncryptedTally;
 import electionguard.ballot.Guardian;
 import electionguard.ballot.PlaintextTally;
+import electionguard.core.ElementModP;
 import electionguard.publish.ElectionRecord;
 import org.junit.jupiter.api.Test;
 
@@ -34,10 +35,15 @@ public class TestJsonConsumer {
     assertThat(consumer.readConstants()).isNotNull();
     ElectionConstants constants = consumer.readConstants();
     ElectionConstants expected = productionGroup().getConstants();
+
     assertThat(constants.getLargePrime()).isEqualTo(expected.getLargePrime());
     assertThat(constants.getSmallPrime()).isEqualTo(expected.getSmallPrime());
     assertThat(constants.getCofactor()).isEqualTo(expected.getCofactor());
     assertThat(constants.getGenerator()).isEqualTo(expected.getGenerator());
+
+    ElementModP etest = productionGroup().safeBinaryToElementModP(expected.getLargePrime(), 0);
+    ElementModP test = productionGroup().safeBinaryToElementModP(constants.getLargePrime(), 0);
+    assertThat(test).isEqualTo(etest);
   }
 
   @Test

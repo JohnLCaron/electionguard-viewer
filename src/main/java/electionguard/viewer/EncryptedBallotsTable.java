@@ -5,7 +5,6 @@
 
 package electionguard.viewer;
 
-import electionguard.ballot.ElectionInitialized;
 import electionguard.ballot.Manifest;
 import electionguard.ballot.EncryptedBallot;
 import electionguard.publish.ElectionRecord;
@@ -23,7 +22,7 @@ import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.Optional;
 
-public class SubmittedBallotsTable extends JPanel {
+public class EncryptedBallotsTable extends JPanel {
   private final PreferencesExt prefs;
 
   private final BeanTable<SubmittedBallotBean> ballotTable;
@@ -36,7 +35,7 @@ public class SubmittedBallotsTable extends JPanel {
   private Manifest manifest;
   private ElectionRecord context;
 
-  public SubmittedBallotsTable(PreferencesExt prefs) {
+  public EncryptedBallotsTable(PreferencesExt prefs) {
     this.prefs = prefs;
     TextHistoryPane infoTA = new TextHistoryPane();
     infoWindow = new IndependentWindow("Extra Information", BAMutil.getImage("electionguard-logo.png"), infoTA);
