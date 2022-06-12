@@ -25,7 +25,7 @@ public class DecryptingTrusteeTable extends JPanel {
   private final PreferencesExt prefs;
 
   private final BeanTable<TrusteeBean> trusteeTable;
-  private final BeanTable<PartialKeyBackupBean> backupTable;
+  private final BeanTable<SecretKeyShareBean> backupTable;
   private final BeanTable<GuardianCommittmentsBean> commitmentTable;
 
   private final JSplitPane split1;
@@ -42,16 +42,19 @@ public class DecryptingTrusteeTable extends JPanel {
     infoWindow = new IndependentWindow("Extra Information", BAMutil.getImage("electionguard-logo.png"), infoTA);
     infoWindow.setBounds((Rectangle) prefs.getBean("InfoWindowBounds", new Rectangle(300, 300, 800, 100)));
 
-    trusteeTable = new BeanTable<>(TrusteeBean.class, (PreferencesExt) prefs.node("ContestTable"), false);
-    /* trusteeTable.addListSelectionListener(e -> {
+    trusteeTable = new BeanTable<TrusteeBean>(TrusteeBean.class, (PreferencesExt) prefs.node("ContestTable"),
+            false, "DecryptingTrustee", "", null);
+    trusteeTable.addListSelectionListener(e -> {
       TrusteeBean bean = trusteeTable.getSelectedBean();
       if (bean != null) {
-        setTrustee(bean);
+        setTrusteePrivateData(bean);
       }
-    }); */
+    });
 
-    backupTable = new BeanTable<>(PartialKeyBackupBean.class, (PreferencesExt) prefs.node("backupTable"), false);
-    commitmentTable = new BeanTable<>(GuardianCommittmentsBean.class, (PreferencesExt) prefs.node("commTable"), false);
+    backupTable = new BeanTable<SecretKeyShareBean>(SecretKeyShareBean.class, (PreferencesExt) prefs.node("backupTable"),
+            false, "SecretKeyShare", "", null);
+    commitmentTable = new BeanTable<>(GuardianCommittmentsBean.class, (PreferencesExt) prefs.node("commTable"),
+      false, "GuardianCommittments", "", null);
 
     // layout
     split2 = new JSplitPane(JSplitPane.VERTICAL_SPLIT, false, backupTable, commitmentTable);
@@ -70,10 +73,10 @@ public class DecryptingTrusteeTable extends JPanel {
     commitmentTable.clearBeans();
   }
 
-  void setTrustees(Iterable<DecryptingTrusteeIF> trustees) {
+  void setTrustees(Iterable<DecryptingTrustee> trustees) {
     this.current = null;
     java.util.List<TrusteeBean> beanList = new ArrayList<>();
-    for (DecryptingTrusteeIF trustee : trustees)  {
+    for (DecryptingTrustee trustee : trustees)  {
       if (this.current == null) {
         this.current = trustee;
       }
@@ -82,22 +85,21 @@ public class DecryptingTrusteeTable extends JPanel {
     trusteeTable.setBeans(beanList);
   }
 
-  /*
   void setTrusteePrivateData(TrusteeBean trusteeBean) {
     this.current = trusteeBean.object;
 
-    java.util.List<PartialKeyBackupBean> beanList = new ArrayList<>();
-    for (electionguard.keyceremony.SecretKeyShare e : trusteeBean.object.getSecretKeyShares().values()) {
-      beanList.add(new PartialKeyBackupBean(e.getGeneratingGuardianId(), e));
+    java.util.List<SecretKeyShareBean> beanList = new ArrayList<>();
+    for (Map.Entry<String, SecretKeyShare> e : trusteeBean.object.getSecretKeyShares().entrySet()) {
+      beanList.add(new SecretKeyShareBean(e.getKey(), e.getValue()));
     }
     backupTable.setBeans(beanList);
 
     java.util.List<GuardianCommittmentsBean> bean2List = new ArrayList<>();
-    for (Map.Entry<String, java.util.List<ElementModP>> e : trusteeBean.object.getCoefficientCommitments().entrySet()) {
+    for (Map.Entry<String, java.util.List<ElementModP>> e : trusteeBean.object.getGuardianPublicKeys().entrySet()) {
       bean2List.add(new GuardianCommittmentsBean(e.getKey(), e.getValue()));
     }
     commitmentTable.setBeans(bean2List);
-  } */
+  }
 
   void save() {
     backupTable.saveState(false);
@@ -115,9 +117,9 @@ public class DecryptingTrusteeTable extends JPanel {
   }
 
   public class TrusteeBean {
-    DecryptingTrusteeIF object;
+    DecryptingTrustee object;
     public TrusteeBean(){}
-    TrusteeBean(DecryptingTrusteeIF object) {
+    TrusteeBean(DecryptingTrustee object) {
       this.object = object;
     }
 
@@ -130,13 +132,13 @@ public class DecryptingTrusteeTable extends JPanel {
     }
   }
 
-  public class PartialKeyBackupBean {
+  public class SecretKeyShareBean {
     String key;
     SecretKeyShare object;
 
-    public PartialKeyBackupBean(){}
+    public SecretKeyShareBean(){}
 
-    PartialKeyBackupBean(String key, SecretKeyShare object) {
+    SecretKeyShareBean(String key, SecretKeyShare object) {
       this.key = key;
       this.object = object;
     }
@@ -147,10 +149,13 @@ public class DecryptingTrusteeTable extends JPanel {
     public String getGeneratingGuardianId() {
       return object.getGeneratingGuardianId();
     }
+    public Integer designatedGuardianXCoordinate() {
+      return object.getDesignatedGuardianXCoordinate();
+    }
     public String getDesignatedGuardianId() {
       return object.getDesignatedGuardianId();
     }
-    public String getCoordinate() {
+    public String getEncryptedCoordinate() {
       return object.getEncryptedCoordinate().toString();
     }
   }

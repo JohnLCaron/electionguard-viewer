@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Formatter;
 
-public class CiphertextTallyTable extends JPanel {
+public class EncryptedTallyTable extends JPanel {
   private final PreferencesExt prefs;
 
   private final BeanTable<CiphertextTallyBean> tallyTable;
@@ -22,7 +22,7 @@ public class CiphertextTallyTable extends JPanel {
   private final JSplitPane split1, split2;
   private final IndependentWindow infoWindow;
 
-  public CiphertextTallyTable(PreferencesExt prefs) {
+  public EncryptedTallyTable(PreferencesExt prefs) {
     this.prefs = prefs;
     TextHistoryPane infoTA = new TextHistoryPane();
     infoWindow = new IndependentWindow("Extra Information", BAMutil.getImage("electionguard-logo.png"), infoTA);

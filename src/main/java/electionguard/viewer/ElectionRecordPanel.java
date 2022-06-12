@@ -43,9 +43,9 @@ class ElectionRecordPanel extends JPanel {
   ElectionRecord record;
 
   ManifestTable manifestTable;
-  SubmittedBallotsTable submittedBallotsTable;
+  EncryptedBallotsTable submittedBallotsTable;
   PlaintextTallyTable plaintextTallyTable;
-  CiphertextTallyTable ciphertextTallyTable;
+  EncryptedTallyTable ciphertextTallyTable;
   PlaintextTallyTable spoiledBallotsTable;
 
   ElectionRecordPanel(PreferencesExt prefs, JFrame frame) {
@@ -107,8 +107,8 @@ class ElectionRecordPanel extends JPanel {
     // components
     this.manifestTable = new ManifestTable((PreferencesExt) prefs.node("Manifest"))
             .addActions(buttPanel);
-    this.submittedBallotsTable = new SubmittedBallotsTable((PreferencesExt) prefs.node("CastBallots"));
-    this.ciphertextTallyTable = new CiphertextTallyTable((PreferencesExt) prefs.node("CiphertextTally"));
+    this.submittedBallotsTable = new EncryptedBallotsTable((PreferencesExt) prefs.node("CastBallots"));
+    this.ciphertextTallyTable = new EncryptedTallyTable((PreferencesExt) prefs.node("CiphertextTally"));
     this.plaintextTallyTable = new PlaintextTallyTable((PreferencesExt) prefs.node("PlaintextTally"));
     this.spoiledBallotsTable = new PlaintextTallyTable((PreferencesExt) prefs.node("SpoiledBallots"));
 
@@ -123,9 +123,9 @@ class ElectionRecordPanel extends JPanel {
     JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
     tabbedPane.addTab("Manifest", this.manifestTable);
     tabbedPane.addTab("EncryptedBallots", this.submittedBallotsTable);
-    tabbedPane.addTab("CiphertextTally", this.ciphertextTallyTable);
-    tabbedPane.addTab("ElectionTally", this.plaintextTallyTable);
-    tabbedPane.addTab("SpoiledBallots", this.spoiledBallotsTable);
+    tabbedPane.addTab("EncryptedTally", this.ciphertextTallyTable);
+    tabbedPane.addTab("DecryptedTally", this.plaintextTallyTable);
+    tabbedPane.addTab("SpoiledBallotTallies", this.spoiledBallotsTable);
     tabbedPane.setSelectedIndex(0);
     add(tabbedPane, BorderLayout.CENTER);
   }
@@ -213,8 +213,24 @@ class ElectionRecordPanel extends JPanel {
 
       f.format("%nEncryptedBallots %d%n", sizeof(record.encryptedBallots(null)));
       f.format("SpoiledBallotTallies %d%n", sizeof(record.spoiledBallotTallies()));
+
+      f.format("%nMetadata%n");
+      f.format("ElectionConfig present = %s%n", record.config() != null);
+      if (record.config() != null) {
+        f.format("   %s%n", record.config().getMetadata());
+      }
+      f.format("ElectionInit present = %s%n", record.electionInit() != null);
+      if (record.electionInit() != null) {
+        f.format("   %s%n", record.electionInit().getMetadata());
+      }
       f.format("EncryptedTally present = %s%n", record.encryptedTally() != null);
+      if (record.encryptedTally() != null) {
+        f.format("   %s%n", record.tallyResult().getMetadata());
+      }
       f.format("DecryptedTally present = %s%n", record.decryptedTally() != null);
+      if (record.decryptedTally() != null) {
+        f.format("   %s%n", record.decryptionResult().getMetadata());
+      }
     }
   }
 

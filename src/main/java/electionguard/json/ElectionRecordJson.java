@@ -1,6 +1,7 @@
 package electionguard.json;
 
 import electionguard.ballot.DecryptingGuardian;
+import electionguard.ballot.DecryptionResult;
 import electionguard.ballot.ElectionConfig;
 import electionguard.ballot.ElectionConstants;
 import electionguard.ballot.ElectionInitialized;
@@ -9,20 +10,25 @@ import electionguard.ballot.EncryptedTally;
 import electionguard.ballot.Guardian;
 import electionguard.ballot.Manifest;
 import electionguard.ballot.PlaintextTally;
+import electionguard.ballot.TallyResult;
 import electionguard.core.ElementModP;
+import electionguard.core.GroupContext;
 import electionguard.core.UInt256;
 import electionguard.publish.ElectionRecord;
+import electionguard.viewer.KUtils;
 import kotlin.jvm.functions.Function1;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
+import static java.util.Collections.emptyList;
 import static java.util.Collections.emptyMap;
 
 public class ElectionRecordJson implements ElectionRecord {
   private static final String PROTO_VERSION = "Json 1.0";
   private final JsonConsumer consumer;
+  GroupContext group = KUtils.productionGroup();
 
   private ElectionConstants constants;
   private ElectionContextPojo.ElectionContext context;
@@ -86,16 +92,8 @@ public class ElectionRecordJson implements ElectionRecord {
     if (context == null) {
       context = consumer.readContext();
     }
-    ElectionConfig config = new ElectionConfig(
-            PROTO_VERSION,
-            constants(),
-            manifest(),
-            numberOfGuardians(),
-            quorum(),
-            emptyMap()
-    );
     return new ElectionInitialized(
-            config,
+            config(),
             jointPublicKey(),
             context.manifestHash,
             cryptoBaseHash(),
@@ -183,4 +181,42 @@ public class ElectionRecordJson implements ElectionRecord {
   public String topdir() {
     return consumer.location();
   }
+
+  @NotNull
+  @Override
+  public ElectionConfig config() {
+    return new ElectionConfig(
+            PROTO_VERSION,
+            constants(),
+            manifest(),
+            numberOfGuardians(),
+            quorum(),
+            emptyMap()
+    );
+  }
+
+  @Nullable
+  @Override
+  public TallyResult tallyResult() {
+    return new TallyResult(
+            group,
+            electionInit(),
+            encryptedTally(),
+            emptyList(),
+            emptyList(),
+            emptyMap()
+    );
+  }
+
+  @Nullable
+  @Override
+  public DecryptionResult decryptionResult() {
+    return new DecryptionResult(
+            tallyResult(),
+            decryptedTally(),
+            decryptingGuardians(),
+            emptyMap()
+    );
+  }
+
 }

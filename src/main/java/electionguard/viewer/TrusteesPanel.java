@@ -1,9 +1,7 @@
 package electionguard.viewer;
 
-import electionguard.ballot.Guardian;
 import electionguard.core.GroupContext;
-import electionguard.decrypt.DecryptingTrusteeIF;
-import electionguard.publish.Consumer;
+import electionguard.decrypt.DecryptingTrustee;
 import ucar.ui.prefs.ComboBox;
 import ucar.ui.widget.BAMutil;
 import ucar.ui.widget.FileManager;
@@ -14,39 +12,45 @@ import ucar.util.prefs.PreferencesExt;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Formatter;
 
-import static java.util.Collections.emptyList;
+import static electionguard.publish.ReaderKt.readTrustee;
 
 class TrusteesPanel extends JPanel {
   final PreferencesExt prefs;
   final TextHistoryPane ta;
   final IndependentWindow infoWindow;
-  final ComboBox<String> inputBallotDirCB;
+  final ComboBox<String> trusteeDirCB;
   final JPanel topPanel;
   final JPanel buttPanel = new JPanel();
   final FileManager fileChooser;
   final DecryptingTrusteeTable trusteesDecryptingTable;
+  GroupContext group = KUtils.productionGroup();
 
   boolean eventOk = true;
-  String inputFile = "none";
+  String trusteeDir = "none";
 
   TrusteesPanel(PreferencesExt prefs, JFrame frame) {
     this.prefs = prefs;
 
     ////// Choose the inputBallotDir
     this.fileChooser = new FileManager(frame, null, null, (PreferencesExt) prefs.node("FileManager"));
-    this.inputBallotDirCB = new ComboBox<>((PreferencesExt) prefs.node("inputDirCB"));
-    this.inputBallotDirCB.addChangeListener(e -> {
+    this.trusteeDirCB = new ComboBox<>((PreferencesExt) prefs.node("inputDirCB"));
+    this.trusteeDirCB.addChangeListener(e -> {
       if (!this.eventOk) {
         return;
       }
-      this.inputFile = (String) inputBallotDirCB.getSelectedItem();
-      if (setTrusteeDir(this.inputFile, null, emptyList())) {
-        this.eventOk = false;
-        this.inputBallotDirCB.addItem(this.inputFile);
-        this.eventOk = true;
+      String trusteeDir = (String) trusteeDirCB.getSelectedItem();
+      if (!trusteeDir.equals(this.trusteeDir)) {
+        if (setTrusteeDir(trusteeDir)) {
+          this.eventOk = false;
+          this.trusteeDirCB.addItem(trusteeDir);
+          this.eventOk = true;
+          this.trusteeDir = trusteeDir;
+        }
       }
     });
     AbstractAction fileAction = new AbstractAction() {
@@ -54,7 +58,7 @@ class TrusteesPanel extends JPanel {
       public void actionPerformed(ActionEvent e) {
         String dirName = fileChooser.chooseFileOrDirectory(null);
         if (dirName != null) {
-          inputBallotDirCB.setSelectedItem(dirName);
+          trusteeDirCB.setSelectedItem(dirName);
         }
       }
     };
@@ -83,7 +87,7 @@ class TrusteesPanel extends JPanel {
     // layout
     this.topPanel = new JPanel(new BorderLayout());
     this.topPanel.add(new JLabel("file:"), BorderLayout.WEST);
-    this.topPanel.add(inputBallotDirCB, BorderLayout.CENTER);
+    this.topPanel.add(trusteeDirCB, BorderLayout.CENTER);
     this.topPanel.add(buttPanel, BorderLayout.EAST);
     setLayout(new BorderLayout());
     add(topPanel, BorderLayout.NORTH);
@@ -94,12 +98,11 @@ class TrusteesPanel extends JPanel {
     add(tabbedPane, BorderLayout.CENTER);
   }
 
-  boolean setTrusteeDir(String trusteeDir, GroupContext group, java.util.List<Guardian> guardians) {
+  boolean setTrusteeDir(String trusteeDir) {
     trusteesDecryptingTable.clearBeans();
-    java.util.List<DecryptingTrusteeIF> trustees = new ArrayList<>();
-    Consumer consumer = new Consumer(trusteeDir, group);
-    for (Guardian guardian : guardians) {
-      DecryptingTrusteeIF trustee = consumer.readTrustee(inputFile, guardian.getGuardianId());
+    java.util.List<DecryptingTrustee> trustees = new ArrayList<>();
+    for (String trusteeFile : trusteeFiles(trusteeDir)) {
+      DecryptingTrustee trustee = readTrustee(group, trusteeDir + "/" +trusteeFile);
       if (trustee != null) {
         trustees.add(trustee);
       }
@@ -108,14 +111,22 @@ class TrusteesPanel extends JPanel {
     return true;
   }
 
+  private String[] trusteeFiles(String trusteeDir) {
+    Path trusteePath = Path.of(trusteeDir);
+    if (!Files.exists(trusteePath) || !Files.isDirectory(trusteePath)) {
+      throw new RuntimeException("Trustee dir '" + trusteeDir + "' does not exist");
+    }
+    return trusteePath.toFile().list();
+  }
+
   void showInfo(Formatter f) {
-    f.format("%s%n", this.inputFile);
+    f.format("%s%n", this.trusteeDir);
     trusteesDecryptingTable.showInfo(f);
   }
 
   void save() {
     fileChooser.save();
-    inputBallotDirCB.save();
+    trusteeDirCB.save();
     trusteesDecryptingTable.save();
     if (infoWindow != null) {
       prefs.putBeanObject(ViewerMain.FRAME_SIZE, infoWindow.getBounds());
