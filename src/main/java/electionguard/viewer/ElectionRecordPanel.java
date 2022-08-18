@@ -244,7 +244,7 @@ class ElectionRecordPanel extends JPanel {
     }
     f.format(" Verify ElectionRecord from %s%n", this.record.topdir());
     Verifier verifier = new Verifier(record, 11);
-    boolean ok = verifier.verify();
+    boolean ok = verifier.verify(true);
     f.format(" OK =  %s%n", ok);
   }
 
