@@ -5,7 +5,7 @@
 plugins {
     base
     java
-    kotlin("jvm") version "1.6.21"
+    kotlin("jvm") version "1.7.10"
 }
 
 group = "electionguard.viewer"
@@ -13,6 +13,13 @@ version = "1.0-SNAPSHOT"
 val pbandkVersion by extra("0.13.0")
 
 repositories {
+    maven {
+        url = uri("https://maven.pkg.github.com/danwallach/electionguard-kotlin-multiplatform")
+        credentials {
+            username = project.findProperty("github.user") as String? ?: System.getenv("USERNAME")
+            password = project.findProperty("github.key") as String? ?: System.getenv("TOKEN")
+        }
+    }
     mavenCentral()
     flatDir {
         dirs("libs")
@@ -31,7 +38,7 @@ dependencies {
     implementation(libs.flogger)
 
     implementation(files("libs/uibase.jar"))
-    implementation(files("libs/electionguard-kotlin-multiplatform-jvm-1.0-SNAPSHOT.jar"))
+    implementation("electionguard-kotlin-multiplatform:electionguard-kotlin-multiplatform-jvm:1.0-SNAPSHOT")
 
     implementation(libs.jdom2)
     implementation(libs.slf4j)
@@ -42,16 +49,7 @@ dependencies {
     implementation(kotlin("stdlib-common", "1.6.20"))
     implementation(kotlin("stdlib", "1.6.20"))
 
-    // Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0")
-
-    // Useful, portable routines
-    // implementation("io.ktor:ktor-utils:1.6.8")
-
-    // Portable logging interface. On the JVM, we'll get "logback", which gives
-    // us lots of features. On Native, it ultimately just prints to stdout.
-    // On JS, it uses console.log, console.error, etc.
-    implementation("io.github.microutils:kotlin-logging:2.1.21")
 
     // A multiplatform Kotlin library for working with date and time.
     implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.3.2")
@@ -61,6 +59,9 @@ dependencies {
 
     // A multiplatform Kotlin library for Result monads
     implementation("com.michael-bull.kotlin-result:kotlin-result:1.1.15")
+
+    implementation("io.github.microutils:kotlin-logging:2.1.21")
+    implementation("ch.qos.logback:logback-classic:1.3.0-alpha12")
 
     testImplementation(libs.truth)
     testImplementation(libs.truthJava8Extension)
